@@ -1,6 +1,9 @@
 # Bienvenido al repositorio de MiloLab
 Este documento se encuentra en `desarrollo`
 
+#### Boceto de la web:
+[Vista previa](https://www.figma.com/proto/AWv2QiNeVc5567FycLzEGk/MILO-web?type=design&node-id=0-3&t=bGgkMK3M0oRghxYV-0&scaling=scale-down-width&page-id=0%3A1&hide-ui=1)
+
 ## Empezando
 
 ### 1. Instalar Node.js
