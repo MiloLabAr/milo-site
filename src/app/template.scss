@@ -1,0 +1,16 @@
+.Navbar{
+    background-color: #6537C7;
+    .end{
+        a{
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            padding: 8px 35px;
+            &:hover{
+                background-color: #fff;
+            }
+        }
+    }
+}
