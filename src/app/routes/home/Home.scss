@@ -130,6 +130,15 @@ section{
 
 @media (max-width: 768px){
     section{
+        &.main{
+            padding: 100px 0 50px;
+            h1{
+                font-size: 5vw;
+            }
+            h2{
+                font-size: 3vw;
+            }
+        }
         &.bestselling{
             padding: 50px 20px 80px;
             .top-container{

@@ -11,7 +11,7 @@
         font-size: 1.7vw;
     }
     p{
-        margin: 10px 0 20px;
+        margin: 10px 0 10px;
         text-align: left;
         font-size: 1vw;
     }
@@ -28,9 +28,9 @@
             display: inline-block;
             font-size: 0.8vw;
             font-weight: 500;
-            padding: 7px 9px;
-            border-radius: 10px;
-            margin: 12px 12px 0 0;
+            padding: 0.35vw 0.45vw;
+            border-radius: 0.5vw;
+            margin: 0.55vw 0.55vw 0 0;
         }
     }
     &.vertical{
@@ -48,7 +48,7 @@
         }
         .badges{
             text-align: left;
-            max-width: 45%;
+            max-width: 43%;
             overflow: hidden;
         }
     }
@@ -68,6 +68,9 @@
         .badges{
             span{
                 font-size: 3vw;
+                padding: 1.1vw 1.45vw;
+                border-radius: 1.6vw;
+                margin: 1.77vw 1.77vw 0 0;
             }
         }
         &.vertical{
