@@ -13,16 +13,6 @@ function Home() {
         <h2>Desarrollamos tu juego o aplicación a medida</h2>
         <Button to='/about' rounded outlined>Saber más</Button>
       </section>
-      <section className='clients'>
-        <h1>Confían en nosotros</h1>
-        <hr />
-        <div className='logos'>
-          <img src='./assets/img/nacion.png' alt='bna' />
-          <img src='./assets/img/nacion.png' alt='bna' />
-          <img src='./assets/img/nacion.png' alt='bna' />
-          <img src='./assets/img/nacion.png' alt='bna' />
-        </div>
-      </section>
       <section className='bestselling'>
         <div className='top-container'>
           <h1>Nuestros más vendidos  ★</h1>
@@ -101,6 +91,16 @@ function Home() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae praesentium ad nulla, laudantium aperiam cupiditate molestiae iste quo doloremque optio illum similique quam debitis suscipit dolore libero quod tenetur dolor?
             </p>
           </div>
+        </div>
+      </section>
+      <section className='clients'>
+        <h1>Confían en nosotros</h1>
+        <hr />
+        <div className='logos'>
+          <img src='./assets/img/nacion.png' alt='bna' />
+          <img src='./assets/img/nacion.png' alt='bna' />
+          <img src='./assets/img/nacion.png' alt='bna' />
+          <img src='./assets/img/nacion.png' alt='bna' />
         </div>
       </section>
     </>
