@@ -1,22 +1,24 @@
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
+import Logo from '../assets/Logo blanco.png'
 import './template.scss'
+
 
 export default function Template({ children }) {
 
   const headerRoutes = [
-    { title: 'Logo', path: '/', logo: true, start: true},
+    { src: Logo, path: '/', logo: true, start: true},
     { title: 'Inicio', path: '/' },
     { title: 'Portfolio', path: '/portfolio' },
-    { title: 'Servicios', path: '/services' },
-    { title: 'Nosotros', path: '/about' },
-    { title: 'Cotizar', path: '/quote', end: true },
+    { title: 'Servicios', path: '/servicios' },
+    { title: 'Nosotros', path: '/nosotros' },
+    { title: 'Cotizar', path: '/cotizar', end: true },
   ]
 
   const footerRoutes = [
     { title: 'Portfolio', path: '/portfolio' },
-    { title: 'Servicios', path: '/services' },
-    { title: 'Nosotros', path: '/about' },
+    { title: 'Servicios', path: '/servicios' },
+    { title: 'Nosotros', path: '/nosotros' },
     { title: 'FAQ', path: '/faq' },
   ]
 

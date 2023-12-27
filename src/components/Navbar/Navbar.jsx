@@ -16,7 +16,7 @@ function Navbar({ className='', style, routes=[] }) {
     <header className={`Navbar ${className}`} style={style}>
       <nav>
         <div className='logo'>
-          {logo ? <Link to={logo.path}>{logo.title}</Link> : null}
+          {logo ? <Link to={logo.path}><img src={logo.src} alt='Milo lab logo'/></Link> : null}
           <button className='menu' onClick={toggleOpen}>
             <AiOutlineMenu />
           </button>
