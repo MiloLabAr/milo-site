@@ -61,7 +61,7 @@ function Home() {
         <div className='content'>
           <h1>Aplicaciones personalizadas</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae aliquam a suscipit distinctio officiis autem molestiae asperiores velit earum! Placeat consequatur facere consectetur voluptatem architecto enim quia eveniet quasi quisquam.
+          En MILO lab entendemos que cada empresa tiene necesidades únicas. Es por eso que ofrecemos soluciones de desarrollo de aplicaciones personalizadas diseñadas específicamente para satisfacer tus objetivos empresariales. Ya sea que busques mejorar la relación con tus clientes o crear publicidad única para tu marca, nuestro equipo de expertos está listo para llevar tu visión más allá de tus expectativas.
           </p>
           <Button to='/servicios' rounded color='#6537C7'>
             Cotizar ahora
@@ -93,7 +93,7 @@ function Home() {
           <div className='content'>
             <h1>Juegos para tu evento</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae praesentium ad nulla, laudantium aperiam cupiditate molestiae iste quo doloremque optio illum similique quam debitis suscipit dolore libero quod tenetur dolor?
+            ¿Qué mejor manera de atraer nuevos clientes que con juegos interactivos? Ya sea un evento corporativo, una feria comercial o una campaña de marketing, nuestros juegos están diseñados para cautivar a tu audiencia y dejar una marca única.
             </p>
           </div>
         </div>
