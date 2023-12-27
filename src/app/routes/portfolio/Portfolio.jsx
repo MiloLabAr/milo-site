@@ -43,7 +43,7 @@ function Portfolio() {
                     badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
                     vertical
                 >
-                    <img src='./assets/img/wordlink.png' alt='Wordconnect' />
+                    <img src='./assets/products/wordlink.png' alt='Wordconnect' />
                 </ProductCard>
                 <ProductCard
                     title='Sopa de letras'
@@ -51,21 +51,21 @@ function Portfolio() {
                     badges={['Touch', 'Personalizable', 'Juego']}
                     vertical
                 >
-                    <img src='./assets/img/wordsearch.png' alt='Wordsearch' />
+                    <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
                 </ProductCard>
                 <ProductCard
                     title='Formulario'
                     description='Formulario personalizado para la toma de datos de clientes'
                     badges={['Aplicación', 'Personalizable', 'Base de datos']}
                 >
-                    <img src='./assets/img/form.png' alt='Form' />
+                    <img src='./assets/products/form.png' alt='Form' />
                 </ProductCard>
                 <ProductCard
                     title='Formulario'
                     description='Formulario personalizado para la toma de datos de clientes'
                     badges={['Aplicación', 'Personalizable', 'Base de datos']}
                 >
-                    <img src='./assets/img/form.png' alt='Form' />
+                    <img src='./assets/products/form.png' alt='Form' />
                 </ProductCard>
                 <ProductCard
                     title='Sopa de letras'
@@ -73,7 +73,7 @@ function Portfolio() {
                     badges={['Touch', 'Personalizable', 'Juego']}
                     vertical
                 >
-                    <img src='./assets/img/wordsearch.png' alt='Wordsearch' />
+                    <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
                 </ProductCard>
             </div>
       </section>

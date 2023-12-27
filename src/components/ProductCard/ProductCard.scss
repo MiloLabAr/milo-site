@@ -1,38 +1,40 @@
 .product-card{
     position: relative;
     width: 28%;
-    height: 20vw;
+    height: 23vw;
     padding: 2vw 2%;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #fff;
-    h1{
+
+        h1{
         margin: 0;
         text-align: left;
         font-size: 1.7vw;
-    }
-    p{
-        margin: 10px 0 10px;
-        text-align: left;
-        font-size: 1vw;
-    }
-    img{
-        max-height: 50%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-    .badges{
-        position: absolute;
-        bottom: 2vw;
-        span{
-            background-color: #E0E0E0;
-            display: inline-block;
-            font-size: 0.8vw;
-            font-weight: 500;
-            padding: 0.35vw 0.45vw;
-            border-radius: 0.5vw;
-            margin: 0.55vw 0.55vw 0 0;
         }
-    }
+        p{
+            margin: 10px 0 10px;
+            text-align: left;
+            font-size: 1vw;
+        }
+        img{
+            max-height: 50%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .badges{
+            position: absolute;
+            bottom: 5vw;
+            span{
+                background-color: #E0E0E0;
+                display: inline-block;
+                font-size: 0.8vw;
+                font-weight: 500;
+                padding: 0.35vw 0.45vw;
+                border-radius: 0.5vw;
+                margin: 0.55vw 0.55vw 0 0;
+            }
+        }
+
     &.vertical{
         img{
             position: absolute;
@@ -52,6 +54,15 @@
             overflow: hidden;
         }
     }
+    .button-container{
+        width: 89%;
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        position: absolute;
+        bottom: 20px;
+    }
+    
 }
 
 @media (max-width: 768px){

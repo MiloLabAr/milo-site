@@ -7,8 +7,10 @@
     font-weight: bold;
     border-radius: 10px;
     text-decoration: none;
+    width: 100%;
+
     &.rounded{
-        border-radius: 30px;
+        border-radius: 100px;
     }
     &.outlined{
         color: white;
