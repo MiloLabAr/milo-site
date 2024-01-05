@@ -10,7 +10,8 @@ function PackageCard({img, title, description, buttonText, link}) {
         </div>
         <h3>{title}</h3>
         <p>{description}</p>
-        <a href={link}>{buttonText}</a>
+        {console.log(buttonText)}
+        {(buttonText != undefined) ? <a href={link}>{buttonText}</a> : null}
     </div>
   )
 }
