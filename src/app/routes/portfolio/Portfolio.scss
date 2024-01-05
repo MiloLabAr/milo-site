@@ -1,7 +1,7 @@
 @import '../../../index.scss';
 
 .events-portfolio{
-    background-color: #161616;
+    background-color: $blackColor;
     color: white;
     padding: 50px 50px 80px;
     display: flex;
@@ -41,7 +41,7 @@
 }
 
 .bestselling-portfolio{
-    background-color: #161616;
+    background-color: $blackColor;
     padding: 0px 100px 80px;
     .top-container{
         display: flex;
