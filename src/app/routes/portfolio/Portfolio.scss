@@ -1,70 +1,52 @@
 @import '../../../index.scss';
 
-.events-portfolio{
-    background-color: #161616;
-    color: white;
-    padding: 50px 50px 80px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    .events-header{
-        width: 92%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 4vw 60px;
-        span{
+.portfolio-container{
+    background-color: $blackColor;
+    padding: 60px $borderPadding;
+    .title{
+
+        h1{
+            margin: 0;
+            color: white;
+            font-size: $titleSize;
+        }
+        p{
+            margin: 0;
+            color: white;
+            font-size: $textSize;
+            text-align: left;
+            margin-top: 30px;
+        }
+    }
+
+    .bestselling-portfolio{
+        background-color: $blackColor;
+        margin-top: 60px;
+        .top-container{
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            font-size: 20px;
-            font-weight: 500;
-            svg{
-                margin-right: 5px;
+            margin-bottom: 60px;
+            h1{
+                font-size: 1.3rem;
+                margin: 0;
+                height: fit-content;
+                padding: 15px 30px;
+                border-radius: 10px;
+                color: white;
+                background-color: $primaryColor;
+            }
+        }
+        .products{
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+
+            .product-card{
+                margin-bottom: 30px;
+                margin-right: 10px;
             }
         }
     }
-    .container{
-        background: none;
-        border-color: white;
-        border-style: solid;
-        border-radius: 20px;
-        width: 92%;
-        height: fit-content;
-
-        p{
-            font-size: 20px;
-            color: white;
-            padding: 10px 25px;
-            text-align: left;
-        }  
-    }
 }
 
-.bestselling-portfolio{
-    background-color: #161616;
-    padding: 0px 100px 80px;
-    .top-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 60px;
-        h1{
-            font-size: 1.3rem;
-            margin: 0;
-            height: fit-content;
-            padding: 15px 30px;
-            border-radius: 10px;
-            color: white;
-            background-color: $primaryColor;
-        }
-    }
-    .products{
-        display: flex;
-        justify-content: left;
-        flex-wrap: wrap;
-        .product-card{
-            margin-bottom: 40px;
-            margin-left: 20px;
-        }
-    }
-}
