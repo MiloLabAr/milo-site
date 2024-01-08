@@ -1,0 +1,19 @@
+[
+    {
+        "id" : "wordconnect",
+        "title" : "Word Connect",
+        "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
+        "description" : "Word Connect es un juego donde los usuarios deberán unir las letras provistas para asi formar la respuesta a la pregunta y pasar a la siguiente.\nCada pregunta consta con un tiempo y puntuación que se da a conocer al finalizar.",
+        "changes" : [
+            "En vez de deslizar para formar palabra se puede hacer que sea solo tocando",
+            "Cantidad de preguntas",
+            "Preguntas y respuestas",
+            "Tiempo por pregunta",
+            "Colores y temática",
+            "Logos",
+            "Horizontal o vertical"
+        ],
+        "images" : ["wordlink.png", "wordsearch.png", "wordlink.png", "wordsearch.png"],
+        "vertical" : true
+    }
+]
