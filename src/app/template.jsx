@@ -25,6 +25,7 @@ export default function Template({ children }) {
   const contactInfo = {
     email : 'contacto@milolab.com',
     phone : '+54 11 2177-0155',
+    instagram: 'milo_lab'
   }
 
 
