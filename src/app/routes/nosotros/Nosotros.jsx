@@ -44,7 +44,7 @@ function Nosotros() {
             </div>
         </section>
 
-        <section className='eventos'>
+        <section className='eventos' id='eventos'>
             <h2>Proyectos y eventos</h2>
             <div className="carrousel">
                 
