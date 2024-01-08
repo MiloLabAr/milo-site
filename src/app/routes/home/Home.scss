@@ -5,13 +5,25 @@ section{
     &.main{
         position: relative;
         margin: 0;
-        padding: 180px 0 50px;
-        background-image: url(../../../assets/home/home-banner.jpg);
-        background-size: cover;
-        background-color: #000000b7;
-        background-blend-mode: overlay;
         color: $whiteColor;
         text-align: center;
+        overflow: hidden;
+        padding: 120px 0 50px;
+
+        .background-image{
+            background-image: url(../../../assets/home/home-banner.jpg);
+            background-size: cover;
+            background-color: #000000b7;
+            background-blend-mode: overlay;
+            transition: transform 1s ease-in-out;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto 0;
+            z-index: -1;
+        }
 
         h1{
             margin: 0;
@@ -21,6 +33,10 @@ section{
             margin: 20px 0 100px;
             font-size: 1.8vw;
             font-weight: 500;
+        }
+
+        &.main:hover .background-image{
+            transform: scale(1.1);
         }
     }
 
@@ -84,7 +100,7 @@ section{
         .content{
             text-align: left;
             margin: 30px 100px 40px;
-            h1{
+            h2{
                 font-size: 2vw;
                 margin: 0 0 20px;
             }
@@ -128,12 +144,13 @@ section{
             .content{
                 text-align: right;
                 margin: 3vw;
-                h1{
-                    font-size: 2.4vw;
+                h2{
+                    font-size: 2vw;
                     margin: 0 0 30px;
                 }
                 p{
-                    font-size: 1.5vw;
+                    font-size: 1.3vw;
+                    margin-bottom: 90px;
                 }
             }
         }
