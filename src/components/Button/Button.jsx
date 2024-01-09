@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Button.scss'
 
-function Button({ children, outlined, bold, rounded, to, fit, color, hoverColor}) {
+function Button({ children, outlined, bold, rounded, to, fit, color, hoverColor, textColor}) {
 
   const styles = {
-    color: outlined ? color || 'white' : 'white',
+    color: outlined ? color || 'white' : textColor || 'white',
     borderColor: color || 'white',
     backgroundColor: outlined ? 'transparent' : color || 'white',
   }
