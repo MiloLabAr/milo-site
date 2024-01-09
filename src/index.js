@@ -7,6 +7,7 @@ import Template from './app/template';
 import Home from './app/routes/home/Home';
 import Portfolio from './app/routes/portfolio/Portfolio';
 import Servicios from './app/routes/servicios/Servicios';
+import Product from './app/routes/product/Product';
 import Nosotros from './app/routes/nosotros/Nosotros';
 
 const route = element => <Template>{element}</Template>
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
   { path: '/', element: route(<Home />)},
   { path: '/portfolio', element: route(<Portfolio />)},
   { path: '/servicios', element: route(<Servicios />)},
+  { path: '/product/:id', element: route(<Product />)},
   { path: '/nosotros', element: route(<Nosotros />)},
   { path: '*', element: route('404')},
 ])
