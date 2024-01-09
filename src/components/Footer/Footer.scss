@@ -1,14 +1,15 @@
+@import '../../variables.scss';
 footer{
     .lists{
         display: flex;
         background-color: #161616;
         color: white;
-        padding: 20px 0 50px;
+        padding: 20px $borderPadding 50px;
         border-top: 2px solid #fff;
         ul{
             list-style: none;
             padding: 0;
-            margin: 0 0 0 10%;
+            margin: 0 10% 0 0;
             li{
                 padding: 10px;
                 h1{
