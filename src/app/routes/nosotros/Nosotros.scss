@@ -1,18 +1,17 @@
 @import '../../../index.scss';
 $paddingBorder: 15%;
 
-
-.servicios-container{
+.nosotros-container{
     background-color: $blackColor;
     color: white;
     margin: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;
 
     section{
-        padding: 40px $paddingBorder;
+        padding: 30px $paddingBorder;
     }
-    
+
     h1{
         font-size: $titleSize;
         margin: 0;
@@ -32,34 +31,12 @@ $paddingBorder: 15%;
         text-align: left;
     }
 
-    .servicios{
+    .ventajas{
         width: calc(100% - $paddingBorder*2);
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        .iconos{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            margin-top: 50px;
-
-            svg{
-                width: 70px;
-                height: 70px;
-            }
-
-            p{
-                font-size: 20px
-            }
-        }
-    }
-
-    .paquetes{
-        width: calc(100% - $paddingBorder*2);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-top: 30px;
 
         .background{
             background-color: $primaryColor;
@@ -69,18 +46,39 @@ $paddingBorder: 15%;
             display: flex;
             flex-direction: column;
             align-items: center;
-
-            .card-container{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
             
             h2{
                 text-align: left;
                 width: 100%;
                 margin-top: 0;
                 margin-bottom: 30px;
+            }
+
+            .iconos-container{
+                margin-top: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .icono{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    min-width: 120px;
+                    width: 15%;
+                    margin-bottom: 40px;
+
+                    p{
+                        text-align: center;
+                        width: 90%;
+                    }
+                }
+
+                svg{
+                    width: 60px;
+                    height: 60px;
+                }
             }
         }
 

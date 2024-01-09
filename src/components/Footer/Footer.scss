@@ -24,6 +24,16 @@ footer{
                         color: #fff6;
                     }
                 }
+                .cotizar{
+                    background-color: white;
+                    color: black;
+                    padding: 3px 7px;
+                    border-radius: 5px;
+                    &:hover{
+                        color: black;
+                        background-color: #cacaca;
+                    }
+                }
             }
         }
     }
