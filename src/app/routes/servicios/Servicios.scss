@@ -1,6 +1,4 @@
-@import '../../../index.scss';
-$paddingBorder: 15%;
-
+@import '../../../variables.scss';
 
 .servicios-container{
     background-color: $blackColor;
@@ -10,7 +8,7 @@ $paddingBorder: 15%;
     padding: 20px 0;
 
     section{
-        padding: 40px $paddingBorder;
+        padding: 40px $borderPadding;
     }
     
     h1{
@@ -33,7 +31,7 @@ $paddingBorder: 15%;
     }
 
     .servicios{
-        width: calc(100% - $paddingBorder*2);
+        width: calc(100% - $borderPadding*2);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -56,7 +54,7 @@ $paddingBorder: 15%;
     }
 
     .paquetes{
-        width: calc(100% - $paddingBorder*2);
+        width: calc(100% - $borderPadding*2);
         display: flex;
         flex-direction: column;
         align-items: center;

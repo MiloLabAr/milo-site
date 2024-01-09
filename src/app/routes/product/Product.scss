@@ -1,7 +1,7 @@
-@import '../../../index.scss';
+@import '../../../variables.scss';
 
 .product-page{
-    padding: 60px calc($borderPadding - 6%);
+    padding: 60px $borderPadding;
     background-color: $blackColor;
     section{
         &.main-pdp{

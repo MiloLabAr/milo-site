@@ -21,6 +21,7 @@ function Product() {
   useEffect(()=>{
     //REEMPLAZAR ESTO POR UN REDIRECT EN LOADER (index.js)
     if(title === '') navigate('/404');
+    // eslint-disable-next-line
   }, [])
 
   return (
