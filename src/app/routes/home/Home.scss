@@ -1,0 +1,184 @@
+@import '../../../index';
+
+section{
+    text-align: center;
+    &.main{
+        position: relative;
+        margin: 0;
+        color: $whiteColor;
+        text-align: center;
+        overflow: hidden;
+        padding: 120px 0 50px;
+
+        .background-image{
+            background-image: url(../../../assets/home/home-banner.jpg);
+            background-size: cover;
+            background-color: #000000b7;
+            background-blend-mode: overlay;
+            transition: transform 1s ease-in-out;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto 0;
+            z-index: -1;
+        }
+
+        h1{
+            margin: 0;
+            font-size: 3vw;
+        }
+        h2{
+            margin: 20px 0 100px;
+            font-size: 1.8vw;
+            font-weight: 500;
+        }
+
+        &.main:hover .background-image{
+            transform: scale(1.1);
+        }
+    }
+
+    &.clients{
+        padding-bottom: 50px;
+        h1{
+            font-size: 2.3rem;
+            margin-bottom: 10px;
+        }
+        hr{
+            width: 200px;
+            height: 2px;
+            background-color: $blackColor;
+            border: none;
+            margin: 0 auto;
+        }
+        .logos{
+            display: flex;
+            justify-content: space-between;
+            max-width: 80%;
+            margin: 60px auto 40px;
+            img{
+                max-width: 20%;
+                filter: grayscale(100%);
+                opacity: 0.8;
+            }
+        }
+    }
+    &.bestselling{
+        background-color: #161616;
+        padding: 50px 100px 80px;
+        .top-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            h1{
+                font-size: 1.3rem;
+                margin: 0;
+                height: fit-content;
+                padding: 15px 30px;
+                border-radius: 10px;
+                color: white;
+                background-color: $primaryColor;
+            }
+            .button-ver-todos-container{
+                width: 15%;
+                display: flex;
+            }
+        }
+        .products{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &.info{
+        background-color: $whiteColor;
+        color: $blackColor;
+        display: flex;
+        align-items: center;
+        .content{
+            text-align: left;
+            margin: 30px 100px 40px;
+            h2{
+                font-size: 2vw;
+                margin: 0 0 20px;
+            }
+            p{
+                font-size: 1.3vw;
+                margin: 0 0 60px;
+            }
+        }
+        img{
+            min-width: 35%;
+        }
+    }
+    &.events{
+        background-color: #161616;
+        color: white;
+        padding: 50px 50px 80px;
+        .events-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 4vw 60px;
+            span{
+                display: flex;
+                align-items: center;
+                font-size: 1.5vw;
+                font-weight: 500;
+                svg{
+                    margin-right: 5px;
+                }
+            }
+        }
+        .events-card{
+            background-color: #6537C7;
+            border-radius: 30px;
+            padding: 0 60px;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 40%;
+            }
+            .content{
+                text-align: right;
+                margin: 3vw;
+                h2{
+                    font-size: 2vw;
+                    margin: 0 0 30px;
+                }
+                p{
+                    font-size: 1.3vw;
+                    margin-bottom: 90px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    section{
+        &.main{
+            padding: 100px 0 50px;
+            h1{
+                font-size: 5vw;
+            }
+            h2{
+                font-size: 3vw;
+            }
+        }
+        &.bestselling{
+            padding: 50px 20px 80px;
+            .top-container{
+                flex-direction: column;
+                h1{
+                    margin-bottom: 20px;
+                }
+            }
+            .products{
+                flex-direction: column;
+            }
+        }
+    }
+}

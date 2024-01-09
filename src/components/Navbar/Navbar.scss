@@ -1,0 +1,133 @@
+@import '../../index';
+
+.Navbar{
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.411);
+    nav{
+        width: 30%;
+        .logo{
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: $borderPadding;
+            display: flex;
+            align-items: center;
+            color: white;
+            a{
+                color: white;
+                text-decoration: none;
+                img{
+                    height: 60px;
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            width: 100%;
+            li{
+                margin: 0 2px;
+                a{
+                    padding: 4px 16px;
+                    border-radius: 500px;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.062);
+                    }
+                }
+                &.active{
+                    a{
+                        background-color: white;
+                        color: $primaryColor;
+                        font-weight: bold;
+                        &:hover{
+                            color: $primaryColor;
+                            background-color: white;
+                        }
+                    }
+                }
+                &.start{
+                    position: absolute;
+                    left: $borderPadding;
+                }
+                &.end{
+                    position: absolute;
+                    right: $borderPadding;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .Navbar{
+        nav{
+            .logo{
+                z-index: 10;
+                left: 0;
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                background-color: $primaryColor;
+                button{
+                    padding: 5px 8px;
+                    display: block;
+                    position: absolute;
+                    right: 15px;
+                    border: 2px solid white;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    svg{
+                        color: white;
+                        width: 20px;
+                        height: 100%;
+                    }
+                }
+            }
+            ul{
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100vh;
+                left: 0;
+                top: -100vh;
+                margin-top: 65px;
+                z-index: 2;
+                transition: 0.5s;
+                &.open{
+                    top: 0;
+                    background-color: $blackColor;
+                }
+                li{
+                    text-align: center;
+                    background-color: $primaryColor;
+                    margin: 1px 0;
+                    padding: 16px 0;
+                    a{
+                        margin: 0 auto;
+                        padding: 4px 16px;
+                    }
+                    &.end{
+                        position: static;
+                    }
+                }
+            }
+        }
+    }
+}

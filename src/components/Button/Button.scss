@@ -1,0 +1,26 @@
+.button{
+    background-color: white;
+    color: #000;
+    border: 2px solid #fff;
+    font-size: 1.5rem;
+    padding: 10px 45px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100%;
+
+    &.rounded{
+        border-radius: 100px;
+    }
+    &.outlined{
+        color: white;
+        background-color: transparent;
+        font-weight: 400;
+    }
+    &.fit{
+        padding: 10px 24px;
+    }
+    &.bold{
+        font-weight: 600;
+    }
+}
