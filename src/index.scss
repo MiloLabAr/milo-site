@@ -18,3 +18,15 @@ code {
 header{
   height: $header-height;
 }
+
+@media (max-width: 1020px){
+  body{
+    width: 1020px;
+  }
+}
+
+@media (max-width: 768px){
+  body{
+    width: 100%;
+  }
+}
