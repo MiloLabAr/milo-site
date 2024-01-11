@@ -27,11 +27,11 @@ section{
 
         h1{
             margin: 0;
-            font-size: 3vw;
+            font-size: 1.8rem;
         }
         h2{
             margin: 20px 0 100px;
-            font-size: 1.8vw;
+            font-size: 1.08vw;
             font-weight: 500;
         }
 
@@ -58,8 +58,8 @@ section{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 80%;
-            margin: 60px auto 40px;
+            max-width: 100%;
+            margin: 60px 0 40px;
             img{
                 max-width: 180px;
                 height: fit-content;
@@ -105,7 +105,7 @@ section{
             text-align: left;
             margin: 30px 50px 30px 0;
             h2{
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 margin: 0 0 20px;
             }
             p{
