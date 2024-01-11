@@ -2,6 +2,7 @@ import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 import Logo from '../assets/Logo blanco.png'
 import './template.scss'
+import { useEffect } from 'react'
 
 
 export default function Template({ children }) {
@@ -28,6 +29,10 @@ export default function Template({ children }) {
     instagram: 'milo_lab'
   }
 
+  useEffect(()=>{
+    //Line to prevent keeping the scroll across diferent routes
+    window.scrollTo(0,0);
+  }, [children])
 
   return (
     <>
