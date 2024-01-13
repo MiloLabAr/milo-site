@@ -1,4 +1,5 @@
 .button{
+    cursor: pointer;
     background-color: white;
     color: #000;
     border: 2px solid #fff;
@@ -8,7 +9,9 @@
     border-radius: 10px;
     text-decoration: none;
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &.rounded{
         border-radius: 100px;
     }
@@ -22,5 +25,16 @@
     }
     &.bold{
         font-weight: 600;
+    }
+    &.loading{
+        pointer-events: none;
+    }
+    svg{
+        position: absolute;
+        height: 40px;
+        width: fit-content;
+        circle{
+            stroke: #ffffffdf;
+        }
     }
 }

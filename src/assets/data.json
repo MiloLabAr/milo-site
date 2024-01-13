@@ -18,7 +18,7 @@
     },
     {
         "id" : "form",
-        "title" : "Word Connect",
+        "title" : "Form",
         "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
         "description" : "Word Connect es un juego donde los usuarios deberán unir las letras provistas para asi formar la respuesta a la pregunta y pasar a la siguiente.\nCada pregunta consta con un tiempo y puntuación que se da a conocer al finalizar.",
         "changes" : [
