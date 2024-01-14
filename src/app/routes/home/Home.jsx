@@ -35,7 +35,7 @@ function Home() {
             description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
             badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
             vertical
-            id={1}
+            id='wordconnect'
           >
             <img src='./assets/products/wordlink.png' alt='Wordconnect' />
           </ProductCard>
@@ -44,7 +44,7 @@ function Home() {
             description='Clasico juego de sopa de letras'
             badges={['Touch', 'Personalizable', 'Juego']}
             vertical
-            id={2}
+            id='sopadeletras'
           >
             <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
           </ProductCard>
@@ -52,7 +52,7 @@ function Home() {
             title='Formulario'
             description='Formulario personalizado para la toma de datos de clientes'
             badges={['Aplicación', 'Personalizable', 'Base de datos']}
-            id={3}
+            id='formulario'
           >
             <img src='./assets/products/form.png' alt='Form' />
           </ProductCard>
