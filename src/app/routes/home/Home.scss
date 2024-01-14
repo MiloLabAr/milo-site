@@ -1,4 +1,4 @@
-@import '../../../index';
+@import '../../../variables.scss';
 
 section{
     text-align: center;
@@ -27,12 +27,15 @@ section{
 
         h1{
             margin: 0;
-            font-size: 3vw;
+            font-size: 1.8rem;
         }
         h2{
             margin: 20px 0 100px;
-            font-size: 1.8vw;
+            font-size: 1.08vw;
             font-weight: 500;
+        }
+        a{
+            margin: 0 auto;
         }
 
         &.main:hover .background-image{
@@ -41,9 +44,10 @@ section{
     }
 
     &.clients{
-        padding-bottom: 50px;
+        //padding-bottom: 50px;
+        padding: 0 $borderPadding 50px;
         h1{
-            font-size: 2.3rem;
+            font-size: 1.6rem;
             margin-bottom: 10px;
         }
         hr{
@@ -56,10 +60,12 @@ section{
         .logos{
             display: flex;
             justify-content: space-between;
-            max-width: 80%;
-            margin: 60px auto 40px;
+            align-items: center;
+            max-width: 100%;
+            margin: 60px 0 40px;
             img{
-                max-width: 20%;
+                max-width: 180px;
+                height: fit-content;
                 filter: grayscale(100%);
                 opacity: 0.8;
             }
@@ -67,14 +73,14 @@ section{
     }
     &.bestselling{
         background-color: #161616;
-        padding: 50px 100px 80px;
+        padding: 50px $borderPadding 80px;
         .top-container{
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 60px;
             h1{
-                font-size: 1.3rem;
+                font-size: 1.1rem;
                 margin: 0;
                 height: fit-content;
                 padding: 15px 30px;
@@ -82,10 +88,10 @@ section{
                 color: white;
                 background-color: $primaryColor;
             }
-            .button-ver-todos-container{
-                width: 15%;
+            /*.button-ver-todos-container{
+                width: 200px;
                 display: flex;
-            }
+            }*/
         }
         .products{
             display: flex;
@@ -97,35 +103,36 @@ section{
         color: $blackColor;
         display: flex;
         align-items: center;
+        padding-left: $borderPadding;
         .content{
             text-align: left;
-            margin: 30px 100px 40px;
+            margin: 30px 50px 30px 0;
             h2{
-                font-size: 2vw;
+                font-size: 1.3rem;
                 margin: 0 0 20px;
             }
             p{
-                font-size: 1.3vw;
+                font-size: 0.8rem;
                 margin: 0 0 60px;
             }
         }
         img{
-            min-width: 35%;
+            min-width: 50%;
         }
     }
     &.events{
         background-color: #161616;
         color: white;
-        padding: 50px 50px 80px;
+        padding: 50px $borderPadding 80px;
         .events-header{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 0 4vw 60px;
+            margin: 0 30px 60px;
             span{
                 display: flex;
                 align-items: center;
-                font-size: 1.5vw;
+                font-size: 1.1rem;
                 font-weight: 500;
                 svg{
                     margin-right: 5px;
@@ -145,11 +152,11 @@ section{
                 text-align: right;
                 margin: 3vw;
                 h2{
-                    font-size: 2vw;
+                    font-size: 1.2rem;
                     margin: 0 0 30px;
                 }
                 p{
-                    font-size: 1.3vw;
+                    font-size: 0.8rem;
                     margin-bottom: 90px;
                 }
             }
@@ -166,6 +173,11 @@ section{
             }
             h2{
                 font-size: 3vw;
+            }
+        }
+        &.clients{
+            .logos{
+                flex-direction: column;
             }
         }
         &.bestselling{

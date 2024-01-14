@@ -1,4 +1,4 @@
-@import '../../index';
+@import '../../variables.scss';
 
 .Navbar{
     color: white;
@@ -12,7 +12,7 @@
     justify-content: center;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.411);
     nav{
-        width: 30%;
+        //width: 30%;
         .logo{
             position: absolute;
             height: 100%;
@@ -45,7 +45,7 @@
                     border-radius: 500px;
                     text-decoration: none;
                     color: white;
-                    font-size: 20px;
+                    font-size: 18px;
                     &:hover{
                         background-color: rgba(255, 255, 255, 0.062);
                     }
@@ -80,7 +80,7 @@
             .logo{
                 z-index: 10;
                 left: 0;
-                width: 100vw;
+                width: 100%;
                 display: flex;
                 justify-content: center;
                 height: 100%;

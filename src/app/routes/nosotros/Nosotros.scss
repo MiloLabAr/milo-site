@@ -1,15 +1,12 @@
-@import '../../../index.scss';
-$paddingBorder: 15%;
+@import '../../../variables.scss';
 
 .nosotros-container{
     background-color: $blackColor;
     color: white;
     margin: 0;
     width: 100%;
-    padding: 30px 0;
-
     section{
-        padding: 30px $paddingBorder;
+        padding: 30px $borderPadding;
     }
 
     h1{
@@ -32,7 +29,7 @@ $paddingBorder: 15%;
     }
 
     .ventajas{
-        width: calc(100% - $paddingBorder*2);
+        width: calc(100% - $borderPadding*2);
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -1,0 +1,118 @@
+@import '../../../variables.scss';
+
+.quote-page{
+    background-color: $blackColor;
+    padding: 30px $borderPadding;
+    section{
+        margin-bottom: 40px;
+        &.head{
+            color: white;
+            h1{
+                font-size: 1.6rem;
+            }
+            p{
+                text-align: left;
+                font-size: 1rem;
+            }
+        }
+        &.form-container{
+            background-color: #d2d2d2;
+            border-radius: 20px;
+            form{
+                padding: 30px 40px 76px;
+                .inputs-container{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    padding: 10px 0;
+                    div{
+                        &.input{
+                            width: 33%;
+                        }
+                        &:nth-child(2){
+                            width: 20%;
+                        }
+                    }
+                    &:nth-child(2){
+                        div{
+                            &:nth-child(2){
+                                width: 27%;
+                                padding-left: 2%;
+                                label{
+                                    left: 7%;
+                                }
+                            }
+                            &:nth-child(3){
+                                width: 28%;
+                            }
+                        }
+                    }
+                    &:nth-child(3){
+                        div{
+                            &:nth-child(2){
+                                width: 33%;
+                                margin-right: 27%;
+                            }
+                        }
+                    }
+                    &:nth-child(4){
+                        div{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            button{
+                width: fit-content;
+                float: right;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .quote-page{
+        padding: 30px $borderPaddingMobile;
+        section{
+            &.form-container{
+                form{
+                    .inputs-container{
+                        padding: 0;
+                        flex-direction: column;
+                        div{
+                            &.input{
+                                width: 100%;
+                                margin-bottom: 20px;
+                            }
+                            &:nth-child(2){
+                                width: 100%;
+                            }
+                        }
+                        &:nth-child(2){
+                            div{
+                                &:nth-child(2){
+                                    width: 100%;
+                                    padding-left: 0;
+                                    label{
+                                        left: 0;
+                                    }
+                                }
+                                &:nth-child(3){
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        &:nth-child(3){
+                            div{
+                                &:nth-child(2){
+                                    width: 100%;
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

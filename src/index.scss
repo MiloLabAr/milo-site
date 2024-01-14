@@ -1,16 +1,7 @@
-$header-height: 65px;
-$primaryColor: #6537C7;
-$blackColor: #141414;
-$whiteColor: white; 
-$borderPadding: 15%;
-
-$titleSize: 40px;
-$subtitleSize: 35px;
-$textSize: 18px;
-$smallTextSize: 15px;
+@import './variables.scss';
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -26,4 +17,26 @@ code {
 
 header{
   height: $header-height;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1;
+}
+
+@media (max-width: 1020px){
+  body{
+    width: 1020px;
+  }
+}
+
+@media (max-width: 768px){
+  body{
+    width: 100%;
+  }
 }
