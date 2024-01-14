@@ -107,7 +107,7 @@
                 height: 100vh;
                 left: 0;
                 top: -100vh;
-                margin-top: 65px;
+                margin-top: 60px;
                 z-index: 2;
                 transition: 0.5s;
                 &.open{
@@ -117,7 +117,7 @@
                 li{
                     text-align: center;
                     background-color: $primaryColor;
-                    margin: 1px 0;
+                    margin: 1px 0 0;
                     padding: 16px 0;
                     a{
                         margin: 0 auto;
