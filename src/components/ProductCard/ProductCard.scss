@@ -56,13 +56,14 @@
         }
     }
     .button-container{
-        width: 270px;
+        width: calc(100% - 50px);
         display: flex;
         justify-content: center;
         height: fit-content;
         position: absolute;
         bottom: 8px;
         .button{
+            width: 100%;
             padding: 5px;
         }
     }
@@ -71,28 +72,8 @@
 
 @media (max-width: 768px){
     .product-card{
-        width: 90%;
-        height: 70vw;
-        padding: 5vw 5%;
-        h1{
-            font-size: 6vw;
-        }
-        p{
-            font-size: 3.5vw;
-        }
-        .badges{
-            span{
-                font-size: 3vw;
-                padding: 1.1vw 1.45vw;
-                border-radius: 1.6vw;
-                margin: 1.77vw 1.77vw 0 0;
-            }
-        }
-        &.vertical{
-            img{
-                max-height: 90%;
-                top: 5%;
-            }
-        }
+        margin: 0 auto 20px;
+        width: 80%;
+        height: 350px;
     }
 }
