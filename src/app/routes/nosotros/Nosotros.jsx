@@ -1,7 +1,10 @@
 import React from 'react'
+import Carousel from '../../../components/Carousel/Carousel'
 import './Nosotros.scss'
 
 import { BsCalendarCheckFill, BsPeopleFill, BsTools, BsLightbulbFill, BsPencilSquare, BsDatabaseFill  } from 'react-icons/bs';
+
+import DefaultImage from '../../../assets/default.jpg'
 
 function Nosotros() {
   return (
@@ -46,9 +49,13 @@ function Nosotros() {
 
         <section className='eventos' id='eventos'>
             <h2>Proyectos y eventos</h2>
-            <div className="carrousel">
-                
-            </div>
+            <Carousel>
+                <img src={DefaultImage} alt="" />
+                <img src={DefaultImage} alt="" />
+                <img src={DefaultImage} alt="" />
+                <img src={DefaultImage} alt="" />
+                <img src={DefaultImage} alt="" />
+            </Carousel>
         </section>
     </div>
   )

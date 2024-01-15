@@ -30,7 +30,7 @@ function Navbar({ className='', style, routes=[] }) {
                   key={route.path+i} 
                   className={`${currentPath === route.path && !route.start ? 'active' : ''} ${route.logo ? 'logo' : ''} ${route.start ? 'start' : ''} ${route.end ? 'end' : ''}`}
                 >
-                  <Link to={route.path}>{route.title}</Link>
+                  <Link to={route.path} onClick={toggleOpen}>{route.title}</Link>
                 </li>
               )
             })
