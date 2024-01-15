@@ -13,7 +13,7 @@
     
     h1{
         font-size: $titleSize;
-        margin: 0;
+        margin: 0 0 20px;
     }
     
     h2{
@@ -26,7 +26,7 @@
     p{
         font-size: $textSize;
         margin: 0;
-        margin-top: 30px;
+        margin-top: 10px;
         text-align: left;
     }
 
@@ -35,7 +35,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        padding-top: 10px;
         .iconos{
             width: 100%;
             display: flex;
@@ -43,8 +43,8 @@
             margin-top: 50px;
 
             svg{
-                width: 70px;
-                height: 70px;
+                width: 50px;
+                height: 50px;
             }
 
             p{
@@ -83,5 +83,39 @@
         }
 
         
+    }
+}
+
+@media (max-width: 768px){
+    .servicios-container{
+        section{
+            padding: 20px $borderPaddingMobile;
+        }
+        .servicios{
+            width: fit-content;
+            margin: 0 auto;
+            .iconos{
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                div{
+                    width: fit-content;
+                    margin-bottom: 30px;
+                    p{
+                        font-size: 14px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .paquetes{
+            width: calc(100% - $borderPaddingMobile*2);
+            .background{
+                h2{
+                    margin: 10px auto -10px;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
