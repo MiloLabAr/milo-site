@@ -10,7 +10,7 @@ function Portfolio() {
             <p>En nuestro portfolio podras ver aplicaciones y juegos ya hechos por nosotros, los cuales pueden ser utilizados como plantilla ademas de contar con la posibilidad de personalizarlos a tu gusto y hasta combinarlos.</p>
         </section>
 
-        <section className='bestselling-portfolio'>
+        <section className='category bestselling-portfolio'>
             <div className='top-container'>
                 <h1>Nuestros más vendidos  ★</h1>
             </div>
@@ -20,6 +20,7 @@ function Portfolio() {
                     description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
                     badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
                     vertical
+                    id='wordconnect'
                 >
                     <img src='./assets/products/wordlink.png' alt='Wordconnect' />
                 </ProductCard>
@@ -28,6 +29,7 @@ function Portfolio() {
                     description='Clasico juego de sopa de letras'
                     badges={['Touch', 'Personalizable', 'Juego']}
                     vertical
+                    id='sopadeletras'
                 >
                     <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
                 </ProductCard>
@@ -35,6 +37,40 @@ function Portfolio() {
                     title='Formulario'
                     description='Formulario personalizado para la toma de datos de clientes'
                     badges={['Aplicación', 'Personalizable', 'Base de datos']}
+                    id='formulario'
+                >
+                    <img src='./assets/products/form.png' alt='Form' />
+                </ProductCard>
+            </div>
+        </section>
+        <section className='category games-portfolio'>
+            <div className='top-container'>
+                <h2>Juegos</h2>
+            </div>
+            <div className='products'>
+                <ProductCard
+                    title='Word Connect'
+                    description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
+                    badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
+                    vertical
+                    id='wordconnect'
+                >
+                    <img src='./assets/products/wordlink.png' alt='Wordconnect' />
+                </ProductCard>
+                <ProductCard
+                    title='Sopa de letras'
+                    description='Clasico juego de sopa de letras'
+                    badges={['Touch', 'Personalizable', 'Juego']}
+                    vertical
+                    id='sopadeletras'
+                >
+                    <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
+                </ProductCard>
+                <ProductCard
+                    title='Formulario'
+                    description='Formulario personalizado para la toma de datos de clientes'
+                    badges={['Aplicación', 'Personalizable', 'Base de datos']}
+                    id='formulario'
                 >
                     <img src='./assets/products/form.png' alt='Form' />
                 </ProductCard>
@@ -52,6 +88,72 @@ function Portfolio() {
                     vertical
                 >
                     <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
+                </ProductCard>
+                <ProductCard
+                    title='Word Connect'
+                    description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
+                    badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
+                    vertical
+                    id='wordconnect'
+                >
+                    <img src='./assets/products/wordlink.png' alt='Wordconnect' />
+                </ProductCard>
+            </div>
+        </section>
+        <section className='category apps-portfolio'>
+            <div className='top-container'>
+                <h2>Aplicaciones</h2>
+            </div>
+            <div className='products'>
+                <ProductCard
+                    title='Word Connect'
+                    description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
+                    badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
+                    vertical
+                    id='wordconnect'
+                >
+                    <img src='./assets/products/wordlink.png' alt='Wordconnect' />
+                </ProductCard>
+                <ProductCard
+                    title='Sopa de letras'
+                    description='Clasico juego de sopa de letras'
+                    badges={['Touch', 'Personalizable', 'Juego']}
+                    vertical
+                    id='sopadeletras'
+                >
+                    <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
+                </ProductCard>
+                <ProductCard
+                    title='Formulario'
+                    description='Formulario personalizado para la toma de datos de clientes'
+                    badges={['Aplicación', 'Personalizable', 'Base de datos']}
+                    id='formulario'
+                >
+                    <img src='./assets/products/form.png' alt='Form' />
+                </ProductCard>
+                <ProductCard
+                    title='Formulario'
+                    description='Formulario personalizado para la toma de datos de clientes'
+                    badges={['Aplicación', 'Personalizable', 'Base de datos']}
+                >
+                    <img src='./assets/products/form.png' alt='Form' />
+                </ProductCard>
+                <ProductCard
+                    title='Sopa de letras'
+                    description='Clasico juego de sopa de letras'
+                    badges={['Touch', 'Personalizable', 'Juego']}
+                    vertical
+                >
+                    <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
+                </ProductCard>
+                <ProductCard
+                    title='Word Connect'
+                    description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
+                    badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
+                    vertical
+                    id='wordconnect'
+                >
+                    <img src='./assets/products/wordlink.png' alt='Wordconnect' />
                 </ProductCard>
             </div>
         </section>

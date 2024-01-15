@@ -13,6 +13,8 @@ function Product() {
   
   const { id } = useParams();
 
+  const imgRoute = '/assets/img/products/';
+
   const [ pageData ] = data.some(page => page.id === id) ? data.filter(page => page.id === id) : [{title:'', badges:[], description:'',changes:[],images:[],vertical:false}];
 
   const { title, badges, description, changes, images, vertical } = pageData;
@@ -30,7 +32,7 @@ function Product() {
         <div className={`gallery ${vertical ? 'portrait' : 'landscape'}`}>
           {!vertical &&
           <div className='image'>
-            <img src={`/assets/products/${images[imageDisplayed]}`} alt={images[imageDisplayed]?.split(".")[0]} />
+            <img src={imgRoute + images[imageDisplayed]} alt={images[imageDisplayed]?.split(".")[0]} />
           </div>
           }
           <div className='column'>
@@ -41,13 +43,13 @@ function Product() {
                 onMouseOver={()=>handleImage(i)}
                 onClick={()=>handleImage(i)}
               >
-                <img src={`/assets/products/${route}`} alt={route.split(".")[0]} />
+                <img src={imgRoute + route} alt={route.split(".")[0]} />
               </div>
             ))}
           </div>
           {vertical &&
           <div className='image'>
-            <img src={`/assets/products/${images[imageDisplayed]}`} alt={images[imageDisplayed].split(".")[0]} />
+            <img src={imgRoute + images[imageDisplayed]} alt={images[imageDisplayed].split(".")[0]} />
           </div>
           }
         </div>
