@@ -48,3 +48,15 @@ footer{
         }
     }
 }
+
+@media (max-width: 768px){
+    footer{
+        .lists{
+            padding: 20px $borderPaddingMobile 50px;
+            justify-content: center;
+            ul{
+                margin: 0;
+            }
+        }
+    }
+}

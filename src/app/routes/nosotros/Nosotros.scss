@@ -33,7 +33,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 0;
 
         .background{
             background-color: $primaryColor;
@@ -67,18 +67,60 @@
                     margin-bottom: 40px;
 
                     p{
+                        margin-top: 10px;
                         text-align: center;
                         width: 90%;
                     }
                 }
 
                 svg{
-                    width: 60px;
-                    height: 60px;
+                    width: 40px;
+                    height: 40px;
                 }
             }
         }
 
         
+    }
+    .eventos{
+        h2{
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .nosotros-container{
+        section{
+            padding: 30px $borderPaddingMobile;
+        }
+        .ventajas{
+            width: calc(100% - $borderPaddingMobile*2);
+            .background{
+                h2{
+                    text-align: center;
+                }
+                .iconos-container{
+                    justify-content: center;
+                }
+            }
+        }
+        .eventos{
+            h2{
+                margin-bottom: 20px;
+            }
+            .carousel{
+                button{
+                    width: 30px;
+                    height: 30px;
+                    &.left{
+                        left: calc(5% - 15px);
+                    }
+                    &.right{
+                        right: calc(5% - 15px);
+                    }
+                }
+            }
+        }
     }
 }

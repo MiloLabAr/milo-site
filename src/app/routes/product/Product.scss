@@ -150,7 +150,7 @@
 
 @media (max-width: 768px){
     .product-page{
-        padding-top: 30px;
+        padding: 30px $borderPaddingMobile 60px;
         section{
             &.main-pdp{
                 flex-direction: column;
