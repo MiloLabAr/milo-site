@@ -13,22 +13,20 @@
             "Logos",
             "Horizontal o vertical"
         ],
-        "images" : ["wordlink.png", "wordsearch.png", "wordlink.png", "wordsearch.png"],
+        "images" : ["wordconnect/1.png", "wordconnect/2.png", "wordconnect/3.png", "wordconnect/4.jpg"],
         "vertical" : true
     },
     {
         "id" : "formulario",
         "title" : "Formulario",
         "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
-        "description" : "Word Connect es un juego donde los usuarios deberán unir las letras provistas para asi formar la respuesta a la pregunta y pasar a la siguiente.\nCada pregunta consta con un tiempo y puntuación que se da a conocer al finalizar.",
+        "description" : "Formulario de toma de datos de clientes para tu marca o evento. Los datos se guardan en el dispositivo de manera local (no requiere conexion a wifi) y luego se pueden subir a una base de datos desde la misma aplicación. Tambien incluye la opción de realizar un sorteo dentro de la misma aplicación entre todos los clientes subidos a la base de datos si asi se desea.",
         "changes" : [
-            "En vez de deslizar para formar palabra se puede hacer que sea solo tocando",
-            "Cantidad de preguntas",
-            "Preguntas y respuestas",
-            "Tiempo por pregunta",
-            "Colores y temática",
-            "Logos",
-            "Horizontal o vertical"
+            "Cantidad de campos",
+            "Datos de los campos",
+            "Estética: colores, logos, diseño, etc.",
+            "Orientación del dispositivo",
+            "Base de datos a donde se desean subir"
         ],
         "images" : ["form.png", "form.png", "form.png"],
         "vertical" : false

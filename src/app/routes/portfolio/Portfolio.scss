@@ -4,6 +4,7 @@
     background-color: $blackColor;
     padding: 60px $borderPadding;
     .title{
+        margin-bottom: 70px;
         h1{
             margin: 0;
             color: white;
@@ -18,14 +19,14 @@
         }
     }
 
-    .bestselling-portfolio{
+    .category{
         background-color: $blackColor;
-        margin-top: 60px;
+        margin: 40px 0;
         .top-container{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 60px;
+            margin-bottom: 20px;
             h1{
                 font-size: 1.3rem;
                 margin: 0;
@@ -35,6 +36,13 @@
                 color: white;
                 background-color: $primaryColor;
             }
+            h2{
+                font-size: 1.7rem;
+                margin: 0;
+                height: fit-content;
+                border-radius: 10px;
+                color: white;
+            }
         }
         .products{
             display: flex;
@@ -42,8 +50,26 @@
             flex-wrap: wrap;
 
             .product-card{
-                margin-bottom: 30px;
+                margin-bottom: 10px;
                 margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .portfolio-container{
+        padding: 60px $borderPaddingMobile;
+        .title{
+            p{
+                text-align: justify;
+            }
+        }
+        .category{
+            .top-container{
+                h1,h2{
+                    margin: 0 auto;
+                }
             }
         }
     }
