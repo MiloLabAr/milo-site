@@ -103,9 +103,7 @@ function Home() {
           </span>
         </div>
         <div className='events-card'>
-          <div className="image-container">
-            <img src='./assets/home/flappy.png' alt='Flappypig' />
-          </div>
+          <img src='./assets/home/flappy.png' alt='Flappypig' />
           <div className='content'>
             <h2>Juegos para tu evento</h2>
             <p>

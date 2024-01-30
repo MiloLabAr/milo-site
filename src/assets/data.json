@@ -14,7 +14,8 @@
             "Horizontal o vertical"
         ],
         "images" : ["wordconnect/1.png", "wordconnect/2.png", "wordconnect/3.png", "wordconnect/4.jpg"],
-        "vertical" : true
+        "vertical" : true,
+        "type" : ["game"]
     },
     {
         "id" : "formulario",
@@ -29,6 +30,7 @@
             "Base de datos a donde se desean subir"
         ],
         "images" : ["form.png", "form.png", "form.png"],
-        "vertical" : false
+        "vertical" : false,
+        "type" : ["app"]
     }
 ]

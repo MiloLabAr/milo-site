@@ -138,15 +138,12 @@ section{
             padding: 0 60px;
             display: flex;
             justify-content: space-between;
+            position: relative;
 
-            .image-container{
-                display: flex;
-                justify-content: center;
-                align-items: end;
-                img{
-                    width: max-content;
-                    height: auto;
-                }
+            img{
+                width: 50%;
+                height: auto;
+                align-self: flex-end;
             }
     
             .content{
@@ -181,7 +178,12 @@ section{
                 flex-direction: column;
                 img{
                     margin: 0 0 30px;
+                    height: auto;
+                    &:nth-child(1){
+                        width: 20%;
+                    }
                 }
+                
             }
         }
         &.bestselling{
@@ -235,13 +237,8 @@ section{
                     span{
                         font-size: 1.2rem;
                         margin: 0 0 20px;
-                        padding-left: 30px;
                         width: calc(100% - 30px);
-                        &:nth-child(2n){
-                            justify-content: right;
-                            padding-right: 30px;
-                            padding-left: 0;
-                        }
+                        justify-content: center;
                     }
                 }
                 &.events-card{
