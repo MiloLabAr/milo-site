@@ -9,14 +9,14 @@ function Home() {
     <>
       <section className='main'>
         <h1>Creamos experiencias digitales únicas</h1>
-        <h2>Desarrollamos tu juego o aplicación a medida</h2>
+        <h3>Desarrollamos tu juego o aplicación a medida</h3>
         <Button to='/servicios' rounded outlined>Saber más</Button>
         <div className='background-image'></div>
       </section>
 
       <section className='bestselling'>
         <div className='top-container'>
-          <h1>Nuestros más vendidos  ★</h1>
+          <h2>Nuestros más vendidos  ★</h2>
           <div className='button-ver-todos-container'>
             <Button 
               to='/portfolio'
@@ -57,6 +57,17 @@ function Home() {
             <img src='./assets/products/form.png' alt='Form' />
           </ProductCard>
         </div>
+        <div className='button-ver-todos-container-mobile'>
+            <Button 
+              to='/portfolio'
+              color='#A187DA'
+              rounded 
+              outlined bold
+              fit
+            >
+              {'Ver todos >'}
+            </Button>
+          </div>
       </section>
 
       <section className='info'>
@@ -65,7 +76,7 @@ function Home() {
           <p>
           En MILO lab entendemos que cada empresa tiene necesidades únicas. Es por eso que ofrecemos soluciones de desarrollo de aplicaciones personalizadas diseñadas específicamente para satisfacer tus objetivos empresariales. Ya sea que busques mejorar la relación con tus clientes o crear publicidad única para tu marca, nuestro equipo de expertos está listo para llevar tu visión más allá de tus expectativas.
           </p>
-          <Button to='/servicios' rounded color='#6537C7'>
+          <Button to='/cotizar' rounded color='#6537C7'>
             Cotizar ahora
           </Button>
         </div>
@@ -92,7 +103,9 @@ function Home() {
           </span>
         </div>
         <div className='events-card'>
-          <img src='./assets/home/flappy.png' alt='Flappypig' />
+          <div className="image-container">
+            <img src='./assets/home/flappy.png' alt='Flappypig' />
+          </div>
           <div className='content'>
             <h2>Juegos para tu evento</h2>
             <p>

@@ -1,20 +1,18 @@
 .product-card{
     position: relative;
-    width: 270px;
-    height: 275px;
+    width: 320px;
+    height: 300px;
     padding: 15px 25px;
     border-radius: 30px;
     background-color: #fff;
 
-        h1{
+        h3{
         margin: 0;
         text-align: left;
-        font-size: 1.4rem;
         }
         p{
             margin: 10px 0 10px;
             text-align: left;
-            font-size: 0.8rem;
         }
         img{
             max-height: 40%;
@@ -43,7 +41,7 @@
             //width: 45%;
             max-height: 78%;
         }
-        h1{
+        h3{
             width: 45%;
         }
         p{
