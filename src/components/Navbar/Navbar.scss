@@ -104,15 +104,17 @@
                 display: block;
                 position: absolute;
                 width: 100%;
-                height: 100vh;
+                height: fit-content;
                 left: 0;
                 top: -100vh;
                 margin-top: 60px;
                 z-index: 2;
                 transition: 0.5s;
+                padding-bottom: 20px;
+                border-top: solid white 2px;
                 &.open{
                     top: 0;
-                    background-color: $blackColor;
+                    background-color: $primaryColor;
                 }
                 li{
                     text-align: center;

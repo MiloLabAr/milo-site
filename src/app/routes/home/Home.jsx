@@ -74,7 +74,7 @@ function Home() {
         <div className='content'>
           <h2>Aplicaciones personalizadas</h2>
           <p>
-          En MILO lab entendemos que cada empresa tiene necesidades únicas. Es por eso que ofrecemos soluciones de desarrollo de aplicaciones personalizadas diseñadas específicamente para satisfacer tus objetivos empresariales. Ya sea que busques mejorar la relación con tus clientes o crear publicidad única para tu marca, nuestro equipo de expertos está listo para llevar tu visión más allá de tus expectativas.
+          En MILO lab entendemos que cada empresa tiene necesidades únicas. Es por eso que ofrecemos soluciones de desarrollo de aplicaciones personalizadas diseñadas específicamente para satisfacer tus objetivos empresariales. Ya sea que busques mejorar la relación con tus clientes o crear publicidad única para tu marca, nuestro equipo de expertos está listo para llevar tu visión más allá de las expectativas.
           </p>
           <Button to='/cotizar' rounded color='#6537C7'>
             Cotizar ahora
@@ -117,7 +117,7 @@ function Home() {
       </section>
 
       <section className='clients'>
-        <h1>Confían en nosotros</h1>
+        <h2>Confían en nosotros</h2>
         <hr />
         <div className='logos'>
           <img src='./assets/home/logo-sm.png' alt='Sample Marketing' />
