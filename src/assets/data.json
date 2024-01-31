@@ -14,14 +14,14 @@
             "Logos",
             "Horizontal o vertical"
         ],
-        "images" : ["wordconnect/1.png", "wordconnect/2.png", "wordconnect/3.png", "wordconnect/4.jpg"],
+        "images" : ["wordconnect/1.jpg", "wordconnect/2.png", "wordconnect/3.png", "wordconnect/4.png"],
         "vertical" : true,
         "type" : ["game"]
     },
     {
         "id" : "formulario",
         "title" : "Formulario",
-        "badges" : ["Touch", "Toma de datos", "Multiplataforma", "Base de datos"],
+        "badges" : ["Touch", "Toma de datos", "Aplicación", "Base de datos"],
         "short-description" : "Formulario personalizado para la toma de datos de clientes",
         "description" : "Formulario de toma de datos de clientes para tu marca o evento. Los datos se guardan en el dispositivo de manera local (no requiere conexion a wifi) y luego se pueden subir a una base de datos desde la misma aplicación. Tambien incluye la opción de realizar un sorteo dentro de la misma aplicación entre todos los clientes subidos a la base de datos si asi se desea.",
         "changes" : [
