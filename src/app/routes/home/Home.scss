@@ -68,7 +68,7 @@ section{
         }
     }
     &.bestselling{
-        background-color: #161616;
+        background-color: $blackColor;
         padding: 50px $borderPadding 80px;
         .top-container{
             display: flex;
@@ -96,6 +96,7 @@ section{
             display: none;
         }
     }
+
     &.info{
         background-color: $whiteColor;
         color: $blackColor;
@@ -116,6 +117,18 @@ section{
             min-width: 40%;
         }
     }
+
+    &.slider{
+        background-color: $blackColor;
+        h2{
+            color: white;
+            margin-bottom: 50px;
+            text-align: center;
+            margin-top: 0;
+        }
+        //border-top: solid $primaryColor 2px;
+    }
+
     &.events{
         background-color: #161616;
         color: white;
@@ -192,6 +205,9 @@ section{
                 }
                 
             }
+        }
+        &.slider{
+            border-top: solid $whiteColor 1px;
         }
         &.bestselling{
             padding: 50px $borderPaddingMobile 80px;
