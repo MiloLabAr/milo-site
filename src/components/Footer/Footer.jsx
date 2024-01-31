@@ -12,7 +12,7 @@ function Footer({ routes, contactInfo }) {
         <footer>
             <div className='lists'>
                 <ul>
-                    <li><h1>Links</h1></li>
+                    <li><h3>Links</h3></li>
                     {routes.map((route, i) => (
                         <li key={route.title+i}>
                             <Link to={route.path}>{route.title}</Link>
@@ -20,7 +20,7 @@ function Footer({ routes, contactInfo }) {
                     ))}
                 </ul>
                 <ul>
-                    <li><h1>Contacto</h1></li>
+                    <li><h3 id="contacto">Contacto</h3></li>
                     <li>
                         <a href={`mailto:${contactInfo.email}`}>
                             <BsEnvelopeFill /> {contactInfo.email}

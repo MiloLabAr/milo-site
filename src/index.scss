@@ -27,6 +27,19 @@ header{
 
 main{
   flex: 1;
+  h1{
+    font-size: 45px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 15px;
+    line-height: 1.2;
+  }
 }
 
 @media (max-width: 1020px){
@@ -38,5 +51,20 @@ main{
 @media (max-width: 768px){
   body{
     width: 100%;
+  }
+
+  main{
+    h1{
+      font-size: 30px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    h3{
+      font-size: 18px;
+    }
+    p{
+      font-size: 15px;
+    }
   }
 }

@@ -4,7 +4,7 @@ import './ProductCard.scss'
 function ProductCard({ children, title, description, badges=[], vertical, id}) {
   return (
     <div className={`product-card ${vertical ? 'vertical' : ''}`}>
-          <h1>{title}</h1>
+          <h3>{title}</h3>
           <p>{description}</p>
           {children}
           <div className='badges'>

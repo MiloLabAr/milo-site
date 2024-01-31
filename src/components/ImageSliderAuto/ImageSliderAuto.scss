@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+$speed: 15s;
+
+.slider{
+    padding: 30px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: $blackColor;
+
+    .slide-track{
+        display: inline-block;
+        animation: scroll $speed linear infinite;
+        -webkit-animation: scroll $speed linear infinite;
+    }
+
+    img{
+        height: 50px;
+        width: auto;
+        margin: 0 40px;
+    }
+}
+
+@keyframes scroll {
+    from{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    to{
+        -webkit-transform: translateX(calc(-100%));
+        transform: translateX(calc(-100%));
+    }
+}
+
+@media (max-width: 768px){
+    $speed: 10s;
+    .slider{ 
+        img{
+            margin: 0 20px;
+        }
+    }
+}
