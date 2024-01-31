@@ -1,4 +1,5 @@
 import Button from '../../../components/Button/Button'
+import ImageSliderAuto from '../../../components/ImageSliderAuto/ImageSliderAuto';
 import ProductCard from '../../../components/ProductCard/ProductCard';
 import './Home.scss'
 
@@ -70,6 +71,19 @@ function Home() {
           </div>
       </section>
 
+      <section className='slider'>
+        <h2>Tecnologias que usamos</h2>
+        <ImageSliderAuto>
+          <img src="./assets/home/technology/html.png" alt="" />
+          <img src="./assets/home/technology/sass.png" alt="" />
+          <img src="./assets/home/technology/js.png" alt="" />
+          <img src="./assets/home/technology/ts.png" alt="" />
+          <img src="./assets/home/technology/react.png" alt="" />
+          <img src="./assets/home/technology/mongo.png" alt="" />
+          <img src="./assets/home/technology/pwa.png" alt="" />
+        </ImageSliderAuto>
+      </section>
+
       <section className='info'>
         <div className='content'>
           <h2>Aplicaciones personalizadas</h2>
@@ -84,7 +98,7 @@ function Home() {
       </section>
 
       <section className='events'>
-        <div className='events-header'>
+      <div className='events-header'>
           <span>
             <BsPencilSquare />
             100% personalizables
@@ -114,6 +128,7 @@ function Home() {
           </Button>
           </div>
         </div>
+        
       </section>
 
       <section className='clients'>
