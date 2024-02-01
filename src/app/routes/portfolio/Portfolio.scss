@@ -8,14 +8,13 @@
         h1{
             margin: 0;
             color: white;
-            font-size: $titleSize;
         }
         p{
             margin: 0;
             color: white;
-            font-size: $textSize;
             text-align: left;
             margin-top: 30px;
+            font-size: 18px;
         }
     }
 
@@ -27,8 +26,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
-            h1{
-                font-size: 1.3rem;
+            .best-seller{
                 margin: 0;
                 height: fit-content;
                 padding: 15px 30px;
@@ -37,11 +35,11 @@
                 background-color: $primaryColor;
             }
             h2{
-                font-size: 1.7rem;
                 margin: 0;
                 height: fit-content;
                 border-radius: 10px;
                 color: white;
+                margin-bottom: 20px;
             }
         }
         .products{

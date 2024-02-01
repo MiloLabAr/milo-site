@@ -5,6 +5,10 @@ import { useNavigate, useParams } from 'react-router-dom'
 import data from '../../../assets/data.json'
 import Button from '../../../components/Button/Button';
 
+import { HiMiniCurrencyDollar } from "react-icons/hi2";
+import { BsTelephoneFill } from "react-icons/bs";
+
+
 function Product() {
 
   const [imageDisplayed, setImageDisplayed] = useState(0);
@@ -74,8 +78,8 @@ function Product() {
             </p>
           </div>
           <div className='buttons'>
-            <Button to='/cotizar' color='#6537C7'>Pedir cotización</Button>
-            <Button to='#contacto' color='#464646'>Contactar</Button>
+            <Button to='/cotizar' color='#6537C7'><p>Pedir cotización</p><HiMiniCurrencyDollar/></Button>
+            <Button to='#contacto' color='#464646'><p>Contactar</p><BsTelephoneFill/></Button>
           </div>
         </div>
       </section>
