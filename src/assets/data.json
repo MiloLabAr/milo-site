@@ -3,7 +3,7 @@
         "id" : "wordconnect",
         "title" : "Word Connect",
         "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
-        "short-description" : "Quiz interactivo que consiste en unir letras para formar la palabra correcta",
+        "shortDescription" : "Quiz interactivo que consiste en unir letras para formar la palabra correcta",
         "description" : "Word Connect es un juego donde los usuarios deberán unir las letras provistas para asi formar la respuesta a la pregunta y pasar a la siguiente.\nCada pregunta consta con un tiempo y puntuación que se da a conocer al finalizar.",
         "changes" : [
             "En vez de deslizar, que sea tocando",
@@ -12,17 +12,74 @@
             "Tiempo por pregunta",
             "Colores y diseño",
             "Logos",
-            "Horizontal o vertical"
+            "Orientación del dispositivo"
         ],
         "images" : ["wordconnect/1.jpg", "wordconnect/2.png", "wordconnect/3.png", "wordconnect/4.png"],
         "vertical" : true,
         "type" : ["game"]
     },
     {
+        "id" : "coinsearch",
+        "title" : "Búsqueda de moneda",
+        "badges" : ["Touch", "Puzzle", "Multiplataforma", "Juego"],
+        "shortDescription" : "Juego al estilo buscando a Wally donde deberas encontrar todas las monedas escondidas para ganar",
+        "description" : "Juego al estilo buscando a Wally donde deberas encontrar todas las monedas escondidas para ganar antes de que se acabe el tiempo.",
+        "changes" : [
+            "Objeto a encontrar",
+            "Tiempo de busqueda",
+            "Cantidad a encontrar",
+            "Fondos",
+            "Logos",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["moneda/1.png", "moneda/2.png", "moneda/3.png"],
+        "vertical" : true,
+        "type" : ["game"]
+    },
+    {
+        "id" : "sopadeletras",
+        "title" : "Sopa de letras",
+        "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
+        "shortDescription" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias para ganar",
+        "description" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias antes de que se acabe el tiempo para ganar",
+        "changes" : [
+            "Palabras a encontrar",
+            "Textos y botones",
+            "Colores y tematica",
+            "Logos",
+            "Tiempo máximo",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["sopadeletras/1.png", "sopadeletras/2.png", "sopadeletras/3.png"],
+        "vertical" : true,
+        "type" : ["game"]
+    },
+    {
+        "id" : "flappypig",
+        "title" : "Flappy Pig",
+        "badges" : ["Touch", "Race", "Multiplataforma", "Juego"],
+        "shortDescription" : "Flappy Pig es un juego adictivo que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos",
+        "description" : "Flappy Pig es un juego adictivo que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos\nEn este emocionante desafío, te convertirás en un encantador cerdito alcancía decidido a acumular riquezas en los cielos, pero cuidado con los martillos que se interponen en tu camino o perderas tus vidas.",
+        "changes" : [
+            "Palabras a encontrar",
+            "Cantidad de vidas o por tiempo",
+            "Colores y tematica",
+            "Logos",
+            "Tiempo máximo",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["flappypig/1.png", "flappypig/2.png", "flappypig/3.png", "flappypig/4.png"],
+        "vertical" : false,
+        "type" : ["game"]
+    },
+    {
         "id" : "formulario",
         "title" : "Formulario",
         "badges" : ["Touch", "Toma de datos", "Aplicación", "Base de datos"],
-        "short-description" : "Formulario personalizado para la toma de datos de clientes",
+        "shortDescription" : "Formulario personalizado para la toma de datos de clientes",
         "description" : "Formulario de toma de datos de clientes para tu marca o evento. Los datos se guardan en el dispositivo de manera local (no requiere conexion a wifi) y luego se pueden subir a una base de datos desde la misma aplicación. Tambien incluye la opción de realizar un sorteo dentro de la misma aplicación entre todos los clientes subidos a la base de datos si asi se desea.",
         "changes" : [
             "Cantidad de campos",
@@ -31,7 +88,7 @@
             "Orientación del dispositivo",
             "Base de datos a donde se desean subir"
         ],
-        "images" : ["form.png", "form.png", "form.png"],
+        "images" : ["formulario/1.png", "formulario/2.png", "formulario/3.png"],
         "vertical" : false,
         "type" : ["app"]
     }

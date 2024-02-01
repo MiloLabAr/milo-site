@@ -11,7 +11,7 @@ function Home() {
       <section className='main'>
         <h1>Creamos experiencias digitales únicas</h1>
         <h3>Desarrollamos tu juego o aplicación a medida</h3>
-        <Button to='/servicios' rounded outlined>Saber más</Button>
+        <Button to='/servicios' rounded outlined>Servicios y paquetes</Button>
         <div className='background-image'></div>
       </section>
 

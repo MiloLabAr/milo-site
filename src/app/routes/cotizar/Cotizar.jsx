@@ -7,7 +7,7 @@ import data from '../../../assets/data.json'
 function Cotizar() {
 
   const [name, setName] = useState('');
-  const [contact, setContact] = useState('Teléfono');
+  const [contact, setContact] = useState('WhatsApp');
   const [phone, setPhone] = useState('');
   const [template, setTemplate] = useState('');
   const [company, setCompany] = useState('');
@@ -77,7 +77,7 @@ function Cotizar() {
                 />
                 <Input
                   {...inputProps}
-                  options={['Teléfono', 'Mail']}
+                  options={['WhatsApp', 'Mail']}
                   label='Método de contacto'
                   type='toggle' 
                   value={contact} 
@@ -85,8 +85,8 @@ function Cotizar() {
                 />
                 <Input
                   {...inputProps}
-                  label={contact === 'Teléfono' ? 'Teléfono *' : 'Mail *'}
-                  type={contact === 'Teléfono' ? 'phone' : 'email'}
+                  label={contact === 'WhatsApp' ? 'WhatsApp *' : 'Mail *'}
+                  type={contact === 'WhatsApp' ? 'phone' : 'email'}
                   value={phone} 
                   setValue={setPhone} 
                 />
