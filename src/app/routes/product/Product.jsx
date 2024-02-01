@@ -75,7 +75,7 @@ function Product() {
           </div>
           <div className='buttons'>
             <Button to='/cotizar' color='#6537C7'>Pedir cotización</Button>
-            <Button to='/' color='#464646'>Contactar</Button>
+            <Button to='#contacto' color='#464646'>Contactar</Button>
           </div>
         </div>
       </section>
