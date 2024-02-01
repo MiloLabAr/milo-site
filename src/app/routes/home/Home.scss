@@ -12,6 +12,7 @@ section{
 
         .background-image{
             background-image: url(../../../assets/home/home-banner.jpg);
+            background-attachment: fixed;
             background-size: cover;
             background-color: #000000b7;
             background-blend-mode: overlay;
@@ -26,6 +27,7 @@ section{
 
         h1{
             margin: 0;
+            font-size: 45px;
         }
         h3{
             margin: 20px 0 70px;
