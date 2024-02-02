@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async';
 import Carousel from '../../../components/Carousel/Carousel'
 import './Nosotros.scss'
 
@@ -8,11 +9,15 @@ import DefaultImage from '../../../assets/default.jpg'
 
 function Nosotros() {
   return (
+    <>
+    <Helmet>
+        <title>Acerca de nosotros | MILO lab</title>
+        <meta name="description" content="Somos una empresa con una trayectoria de más de 7 años especializada en el desarrollo de aplicaciones, videojuegos y páginas web personalizadas. Videojuegos y aplicaciones a medida para eventos empresariales."/>
+    </Helmet>
     <div className='nosotros-container'>
         <section className='title'>
             <h1>¿Quienes somos?</h1>
-            <p>Somos un equipo apasionado de desarrolladores con una trayectoria de más de 7 años, especializados en la creación de aplicaciones y juegos web multiplataforma. A lo largo del trayecto, hemos concebido y desarrollado una amplia gama de proyectos innovadores, adaptándonos a las necesidades específicas del cliente.
-                <br/><br/>Nuestra dedicación se refleja en la calidad y originalidad de cada uno de nuestros productos, diseñados para potenciar la visión y los objetivos de nuestros clientes. Nos distingue la pasión por la tecnología y la creatividad, elementos fundamentales que impulsan nuestra capacidad para superar desafíos y ofrecer soluciones únicas. Nuestra misión es transformar ideas en realidades digitales, llevando la innovación a cada rincón de la industria.</p>
+            <p>Somos un equipo de desarrolladores con una trayectoria de más de 7 años, especializados en la creación de aplicaciones y videojuegos web multiplataforma. A lo largo del trayecto, hemos concebido y desarrollado una amplia gama de proyectos innovadores, adaptándonos a las necesidades específicas del cliente.</p>
         </section>
 
         <section className='ventajas'>
@@ -58,6 +63,7 @@ function Nosotros() {
             </Carousel>
         </section>
     </div>
+    </>
   )
 }
 
