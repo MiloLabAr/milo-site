@@ -185,6 +185,12 @@ section{
     section{
         &.main{
             padding: 50px 30px 50px;
+            .background-image{
+                background-size: 220%;
+                background-position-y: 50px;
+                background-position-x: -210px;
+                background-repeat: no-repeat;
+            }
             h1{
                 text-align: left;
             }
@@ -218,6 +224,7 @@ section{
                 margin-bottom: 20px;
                 h2{
                     margin-bottom: 20px;
+                    font-size: 22px;
                 }
                 .button-ver-todos-container{
                     display: none;

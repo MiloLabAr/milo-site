@@ -97,15 +97,18 @@
             .background{
                 h2{
                     text-align: center;
+                    margin-top: 20px;
                 }
                 .iconos-container{
-                    justify-content: center;
+                    width: 80%;
+                    justify-content: space-between;
                 }
             }
         }
         .eventos{
             h2{
                 margin-bottom: 20px;
+                text-align: center;
             }
             .carousel{
                 button{

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async';
+
 import './Servicios.scss'
 import { BsFillPhoneFill, BsClipboard2Fill , BsFillCollectionPlayFill  } from 'react-icons/bs';
 import { BiSolidJoystick } from "react-icons/bi";
@@ -6,6 +8,11 @@ import PackageCard from '../../../components/PackageCard/PackageCard';
 
 function Servicios() {
   return (
+    <>
+    <Helmet>
+        <title>Servicios y paquetes | Aplicaciones y videojuegos a medida para tu empresa</title>
+        <meta name="description" content="Contamos con varios servicios y paquetes según tus necesidades y presupuesto. Videojuegos, aplicaciones, formularios, páginas web. Proyectos de cero, toma de datos de clientes, apps multiplataforma, marketing."/>
+    </Helmet>
     <div className="servicios-container">
         <section className='title'>
             <h1>Nuestros servicios y paquetes</h1>
@@ -47,6 +54,7 @@ function Servicios() {
             </div>
         </section>
     </div>
+    </>
   )
 }
 
