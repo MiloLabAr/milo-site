@@ -60,13 +60,16 @@
         padding: 60px $borderPaddingMobile;
         .title{
             p{
-                text-align: justify;
+                text-align: left;
             }
         }
         .category{
             .top-container{
-                h1,h2{
+                display: flex;
+                justify-content: center;
+                h2{
                     margin: 0 auto;
+                    text-align: center;
                 }
             }
         }

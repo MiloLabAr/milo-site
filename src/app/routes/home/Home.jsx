@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import Button from '../../../components/Button/Button'
 import ImageSliderAuto from '../../../components/ImageSliderAuto/ImageSliderAuto';
 import ProductCard from '../../../components/ProductCard/ProductCard';
@@ -8,6 +9,10 @@ import { BsFillPeopleFill, BsCurrencyDollar, BsPencilSquare, BsDatabaseFill } fr
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>MILO lab | Desarrollo de videojuegos y aplicaciones a medida</title>
+        <meta name="description" content="Somos una empresa con una trayectoria de más de 7 años especializada en el desarrollo de aplicaciones, videojuegos y páginas web personalizadas. Videojuegos y aplicaciones a medida para eventos empresariales. Landing page para tu negocio."/>
+      </Helmet>
       <section className='main'>
         <h1>Creamos experiencias digitales únicas</h1>
         <h3>Desarrollamos tu juego o aplicación a medida</h3>

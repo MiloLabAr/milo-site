@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async';
 import ProductCard from '../../../components/ProductCard/ProductCard';
 import './Portfolio.scss'
 import data from '../../../assets/data.json'
@@ -10,10 +11,15 @@ function Portfolio() {
     const gamesData = data.filter(page => page.type.includes('game'));
 
   return (
+    <>
+    <Helmet>
+        <title>Portfolio de trabajos | Plantillas para usar</title>
+        <meta name="description" content="En nuestro portfolio podras ver aplicaciones y videojuegos ya creados por nosotros los cuales pueden ser utilizados como plantilla. Tambien contas con la posibilidad de personalizarlos a tu gusto."/>
+    </Helmet>
     <div className='portfolio-container'>
         <section className='title'>
             <h1>Nuestro portfolio de plantillas</h1>
-            <p>En nuestro portfolio podras ver aplicaciones y videojuegos ya creados por nosotros, los cuales pueden ser utilizados como plantilla ademas de contar con la posibilidad de personalizarlos a tu gusto.</p>
+            <p>En nuestro portfolio podras ver aplicaciones y videojuegos ya creados por nosotros los cuales pueden ser utilizados como plantilla. Tambien contas con la posibilidad de personalizarlos a tu gusto.</p>
         </section>
 
         <section className='category bestselling-portfolio'>
@@ -51,7 +57,7 @@ function Portfolio() {
         </section>
         <section className='category games-portfolio'>
             <div className='top-container'>
-                <h2>Juegos</h2>
+                <h2 style={{fontSize: 30 + "px"}}>Videojuegos</h2>
             </div>
             <div className='products'>
                 {gamesData.map(game => (
@@ -68,7 +74,7 @@ function Portfolio() {
         </section>
         <section className='category apps-portfolio'>
             <div className='top-container'>
-                <h2>Aplicaciones</h2>
+                <h2 style={{fontSize: 30 + "px"}}>Aplicaciones</h2>
             </div>
             <div className='products'>
                 {appsData.map(game => (
@@ -84,6 +90,7 @@ function Portfolio() {
             </div>
         </section>
     </div>
+    </>
   )
 }
 
