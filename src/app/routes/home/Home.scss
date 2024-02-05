@@ -157,17 +157,15 @@ section{
             display: flex;
             justify-content: space-between;
             position: relative;
-
             img{
                 width: 50%;
                 height: auto;
                 align-self: flex-end;
             }
-    
             .content{
                 display: flex;
                 flex-direction: column;
-                align-items: end;
+                align-items: flex-end;
                 text-align: right;
                 margin: 3vw;
                 h2{
