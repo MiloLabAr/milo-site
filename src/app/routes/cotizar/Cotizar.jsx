@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
+
 import './Cotizar.scss';
 import Input from '../../../components/Input/Input.tsx'
 import Button from '../../../components/Button/Button'
@@ -45,7 +47,7 @@ function Cotizar() {
         body: JSON.stringify({
           from: 'bconesta@gmail.com',
           to: 'bconesta@gmail.com',
-          subject: 'MILOlab cotización',
+          subject: 'MILOlab nueva cotización',
           content,
           HTMLcontent: content.replaceAll("\n", "<br>")
         }),
@@ -59,11 +61,16 @@ function Cotizar() {
   }
 
   return (
+    <>
+    <Helmet>
+        <title>Cotización online | Cotizá con nosotros tu proyecto</title>
+        <meta name="description" content="Para realizar tu cotización personalizada, completa el siguiente formulario explicando claramente la idea o proyecto. Luego, nos contactaremos con usted via email o WhatsApp para continuar con el proceso y poder enviarle una cotización del trabajo."/>
+    </Helmet>
     <div className='quote-page'>
         <section className='head'>
             <h1>Cotización online</h1>
             <p>
-                Para realizar tu cotización personalizada, completa el siguiente formulario explicando claramente la idea o proyecto. Luego, nos contactaremos con usted via mail o WhatsApp para continuar con el proceso y poder enviarle una cotización del trabajo.
+                Para realizar tu cotización personalizada, completa el siguiente formulario explicando claramente la idea o proyecto. Luego, nos contactaremos con usted via email o WhatsApp para continuar con el proceso y poder enviarle una cotización del trabajo.
             </p>
         </section>
         <section className='form-container'>
@@ -146,6 +153,7 @@ function Cotizar() {
             </form>
         </section>
     </div>
+    </>
   )
 }
 

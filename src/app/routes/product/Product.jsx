@@ -1,4 +1,6 @@
 import './Product.scss'
+import { Helmet } from 'react-helmet-async';
+
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom'
 
@@ -31,6 +33,11 @@ function Product() {
   }, [])
 
   return (
+    <>
+    <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description}/>
+    </Helmet>
     <div className='product-page'>
       <section className='main-pdp'>
         <div className={`gallery ${vertical ? 'portrait' : 'landscape'}`}>
@@ -95,6 +102,7 @@ function Product() {
         </ul>
       </section>
     </div>
+    </>
   )
 }
 
