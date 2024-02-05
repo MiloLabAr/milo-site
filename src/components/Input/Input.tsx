@@ -104,7 +104,7 @@ const Input = ({ type='text', label, value, setValue, backgroundColor='', border
         <div className={`${styles['select-container']} ${className}`}>
             <label style={labelStyles}>{label}</label>
             <div className={styles.select}>
-                <input disabled type="text" value={value} style={inputStyles} onClick={displayOptions} onBlur={(e)=>{e.preventDefault();setDisplay(false);}} />
+                <input type="text" value={value} style={inputStyles} />
                 <button onClick={displayOptions}>
                     <AiOutlineArrowDown style={{transform: `rotate(${display ? '-180deg' : '0deg'})`}}/>
                 </button>
