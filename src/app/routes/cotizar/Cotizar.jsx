@@ -119,6 +119,7 @@ function Cotizar() {
                   type='date' 
                   value={limitDate} 
                   setValue={setLimitDate} 
+                  className='date'
                 />
               </div>
               <div className='inputs-container'>
@@ -141,7 +142,7 @@ function Cotizar() {
               <div className='inputs-container'>
                 <Input
                   {...inputProps}
-                  label='Contanos tu idea/proyecto (Opcional)'
+                  label='Contanos tu idea (Opcional)'
                   type='textarea'
                   value={comment} 
                   setValue={setComment} 
