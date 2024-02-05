@@ -33,7 +33,7 @@
             "Música",
             "Orientación del dispositivo"
         ],
-        "images" : ["moneda/1.png", "moneda/2.png", "moneda/3.png"],
+        "images" : ["Moneda/1.png", "Moneda/2.png", "Moneda/3.png"],
         "vertical" : true,
         "type" : ["game"]
     },
@@ -52,7 +52,7 @@
             "Música",
             "Orientación del dispositivo"
         ],
-        "images" : ["sopadeletras/1.png", "sopadeletras/2.png", "sopadeletras/3.png"],
+        "images" : ["SopaDeLetras/1.png", "SopaDeLetras/2.png", "SopaDeLetras/3.png"],
         "vertical" : true,
         "type" : ["game"]
     },
@@ -71,7 +71,7 @@
             "Música",
             "Orientación del dispositivo"
         ],
-        "images" : ["flappypig/1.png", "flappypig/2.png", "flappypig/3.png", "flappypig/4.png"],
+        "images" : ["FlappyPig/1.png", "FlappyPig/2.png", "FlappyPig/3.png", "FlappyPig/4.png"],
         "vertical" : false,
         "type" : ["game"]
     },
@@ -88,7 +88,7 @@
             "Orientación del dispositivo",
             "Base de datos a donde se desean subir"
         ],
-        "images" : ["formulario/1.png", "formulario/2.png", "formulario/3.png"],
+        "images" : ["Formulario/1.png", "Formulario/2.png", "Formulario/3.png"],
         "vertical" : false,
         "type" : ["app"]
     }
