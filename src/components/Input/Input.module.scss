@@ -14,6 +14,12 @@
             border: solid 2px rgb(107, 155, 218);
             outline: none;
         }
+        &[type="date"]{
+            display:block;
+            -webkit-appearance: textfield;
+            -moz-appearance: textfield;
+            min-height: 1.2em;
+        }
     }
     label{
         line-height: 1;
@@ -154,6 +160,9 @@ div.select-container{
             &:focus{
                 border: solid 2px rgb(107, 155, 218);
                 outline: none;
+            }
+            &:disabled{
+                background-color: white !important;
             }
         }
         button{
