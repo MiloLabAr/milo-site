@@ -14,12 +14,12 @@
             border: solid 2px rgb(107, 155, 218);
             outline: none;
         }
-        &[type="date"]{
-            display:block;
-            -webkit-appearance: textfield;
-            -moz-appearance: textfield;
-            min-height: 1.2em;
-        }
+    }
+    input[type="date"]{
+        display:block;
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        min-height: 40px;
     }
     label{
         line-height: 1;
@@ -209,6 +209,18 @@ div.select-container{
                     border-top: 1px solid #0000001f;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .input-container{
+        input[type="date"]{
+            display:block;
+            -webkit-appearance: textfield;
+            -moz-appearance: textfield;
+            min-height: 40px;
+            min-width: 100%;
         }
     }
 }
