@@ -40,6 +40,9 @@ main{
     font-size: 15px;
     line-height: 1.2;
   }
+  img{
+    -webkit-user-drag: none;
+  }
 }
 
 @media (max-width: 1020px){
