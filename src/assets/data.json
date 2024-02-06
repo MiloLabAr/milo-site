@@ -2,7 +2,7 @@
     {
         "id" : "wordconnect",
         "title" : "Word Connect",
-        "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
+        "badges" : ["Videojuego", "Touch", "Quiz", "Multiplataforma"],
         "shortDescription" : "Quiz interactivo que consiste en unir letras para formar la palabra correcta",
         "description" : "Word Connect es un juego donde los usuarios deberán unir las letras provistas para asi formar la respuesta a la pregunta y pasar a la siguiente.\nCada pregunta consta con un tiempo y puntuación que se da a conocer al finalizar.",
         "changes" : [
@@ -21,7 +21,7 @@
     {
         "id" : "coinsearch",
         "title" : "Búsqueda de moneda",
-        "badges" : ["Touch", "Puzzle", "Multiplataforma", "Juego"],
+        "badges" : ["Videojuego", "Touch", "Puzzle", "Multiplataforma"],
         "shortDescription" : "Juego al estilo buscando a Wally donde deberas encontrar todas las monedas escondidas para ganar",
         "description" : "Juego al estilo buscando a Wally donde deberas encontrar todas las monedas escondidas para ganar antes de que se acabe el tiempo.",
         "changes" : [
@@ -40,7 +40,7 @@
     {
         "id" : "sopadeletras",
         "title" : "Sopa de letras",
-        "badges" : ["Touch", "Quiz", "Multiplataforma", "Juego"],
+        "badges" : ["Videojuego", "Touch", "Quiz", "Multiplataforma"],
         "shortDescription" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias para ganar",
         "description" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias antes de que se acabe el tiempo para ganar",
         "changes" : [
@@ -59,7 +59,7 @@
     {
         "id" : "flappypig",
         "title" : "Flappy Pig",
-        "badges" : ["Touch", "Race", "Multiplataforma", "Juego"],
+        "badges" : ["Videojuego", "Touch", "Carrera", "Record", "Multiplataforma"],
         "shortDescription" : "Flappy Pig es un juego adictivo que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos",
         "description" : "Flappy Pig es un juego adictivo que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos\nEn este emocionante desafío, te convertirás en un encantador cerdito alcancía decidido a acumular riquezas en los cielos, pero cuidado con los martillos que se interponen en tu camino o perderas tus vidas.",
         "changes" : [
@@ -78,7 +78,7 @@
     {
         "id" : "memotest",
         "title" : "Memotest",
-        "badges" : ["Touch", "Juego por tiempo", "Multiplataforma", "Juego"],
+        "badges" : ["Videojuego", "Touch", "Record", "Juego por tiempo", "Multiplataforma"],
         "shortDescription" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales",
         "description" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales antes de que se acabe el tiempo.",
         "changes" : [
@@ -90,7 +90,7 @@
             "Música",
             "Orientación del dispositivo"
         ],
-        "images" : ["memotest/1.jpg", "memotest/2.jpg", "memotest/3.jpg"],
+        "images" : ["Memotest/1.jpg", "Memotest/2.jpg", "Memotest/3.jpg"],
         "vertical" : false,
         "type" : ["game"]
     },
@@ -98,7 +98,7 @@
     {
         "id" : "formulario",
         "title" : "Formulario",
-        "badges" : ["Touch", "Toma de datos", "Aplicación", "Base de datos"],
+        "badges" : ["Aplicación", "Touch", "Toma de datos", "Base de datos"],
         "shortDescription" : "Formulario personalizado para la toma de datos de clientes",
         "description" : "Formulario de toma de datos de clientes para tu marca o evento. Los datos se guardan en el dispositivo de manera local (no requiere conexion a wifi) y luego se pueden subir a una base de datos desde la misma aplicación. Tambien incluye la opción de realizar un sorteo dentro de la misma aplicación entre todos los clientes subidos a la base de datos si asi se desea.",
         "changes" : [

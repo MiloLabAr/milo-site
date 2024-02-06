@@ -287,14 +287,16 @@ section{
                         width: 100%;
                     }
                     .content{
-                        text-align: center;
+                        
                         margin: 30px 0px 10px;
                         h2{
                             width: 100%;
                             margin: 0 0 10px;
+                            text-align: center;
                         }
                         p{
                             margin-bottom: 30px;
+                            text-align: left;
                         }
                         a{
                             margin: 0 auto;
