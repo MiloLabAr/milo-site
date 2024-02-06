@@ -30,28 +30,28 @@ function Portfolio() {
                 <ProductCard
                     title='Word Connect'
                     description='Quiz interactivo que consiste en unir letras para formar la palabra correcta'
-                    badges={['Touch', 'Quiz', 'Personalizable', 'Juego']}
+                    badges={["Videojuego", "Touch", "Quiz", "Multiplataforma"]}
                     vertical
                     id='wordconnect'
                 >
-                    <img src='./assets/products/wordlink.png' alt='Wordconnect' />
+                    <img src='./assets/img/products/wordconnect/1.jpg' alt='Wordconnect' />
                 </ProductCard>
                 <ProductCard
                     title='Sopa de letras'
-                    description='Clasico juego de sopa de letras'
-                    badges={['Touch', 'Personalizable', 'Juego']}
+                    description='Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias para ganar'
+                    badges={["Videojuego", "Touch", "Quiz", "Multiplataforma"]}
                     vertical
                     id='sopadeletras'
                 >
-                    <img src='./assets/products/wordsearch.png' alt='Wordsearch' />
+                    <img src='./assets/img/products/SopaDeLetras/1.png' alt='Wordsearch' />
                 </ProductCard>
                 <ProductCard
                     title='Formulario'
                     description='Formulario personalizado para la toma de datos de clientes'
-                    badges={['Aplicación', 'Personalizable', 'Base de datos']}
+                    badges={["Aplicación", "Touch", "Toma de datos", "Base de datos"]}
                     id='formulario'
                 >
-                    <img src='./assets/products/form.png' alt='Form' />
+                    <img src='./assets/img/products/Formulario/1.png' alt='Form' />
                 </ProductCard>
             </div>
         </section>
