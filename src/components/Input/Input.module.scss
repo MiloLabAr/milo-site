@@ -109,6 +109,7 @@
                 border: none;
                 width: 40%;
                 padding: 0;
+                color: black;
                 &:nth-of-type(1){
                     width: 60%;
                 }
@@ -151,6 +152,8 @@ div.select-container{
             border-radius: 10px;
             padding: 10px;
             font-size: 14px;
+            caret-color: transparent;
+            cursor: pointer;
             &:focus{
                 border: solid 2px rgb(107, 155, 218);
                 outline: none;

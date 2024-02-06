@@ -35,7 +35,7 @@ function Product() {
   return (
     <>
     <Helmet>
-        <title>{title}</title>
+        <title>{title} | Plantilla modificable a medida</title>
         <meta name="description" content={description}/>
     </Helmet>
     <div className='product-page'>
@@ -91,7 +91,7 @@ function Product() {
         </div>
       </section>
       <section className='changes'>
-        <hr />
+        <hr/>
         <h2>¿Qué se puede modificar?</h2>
         <ul>
           {changes.map((change, i)=>(
@@ -100,6 +100,7 @@ function Product() {
             </li>
           ))}
         </ul>
+        <p>Si deseas cambiar algo más podes aclararlo en nuestro formulario de <a href="/cotizar">cotización online</a> y pedir un presupuesto.</p>
       </section>
     </div>
     </>

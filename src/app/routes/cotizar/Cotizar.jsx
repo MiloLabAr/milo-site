@@ -136,7 +136,8 @@ function Cotizar() {
                   label='Tipo de producto *' 
                   type='select'
                   value={productType} 
-                  setValue={setProductType} 
+                  setValue={setProductType}
+                  options={['Videojuego', 'Aplicación', 'Otro']}
                 />
               </div>
               <div className='inputs-container'>

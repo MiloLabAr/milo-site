@@ -65,7 +65,7 @@
         "changes" : [
             "Palabras a encontrar",
             "Cantidad de vidas o por tiempo",
-            "Colores y tematica",
+            "Colores y temática",
             "Logos",
             "Tiempo máximo",
             "Música",
@@ -75,6 +75,26 @@
         "vertical" : false,
         "type" : ["game"]
     },
+    {
+        "id" : "memotest",
+        "title" : "Memotest",
+        "badges" : ["Touch", "Juego por tiempo", "Multiplataforma", "Juego"],
+        "shortDescription" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales",
+        "description" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales antes de que se acabe el tiempo.",
+        "changes" : [
+            "Cantidad de fichas",
+            "Imagenes a encontrar",
+            "Colores y temática",
+            "Logos",
+            "Tiempo máximo",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["memotest/1.jpg", "memotest/2.jpg", "memotest/3.jpg"],
+        "vertical" : false,
+        "type" : ["game"]
+    },
+
     {
         "id" : "formulario",
         "title" : "Formulario",
