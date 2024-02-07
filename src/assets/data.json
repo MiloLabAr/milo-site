@@ -143,7 +143,7 @@
             "Logo",
             "Orientación del dispositivo"
         ],
-        "images" : ["Ruleta/1.jpg", "Ruleta/2.jpg"],
+        "images" : ["ruleta/1.jpg", "ruleta/2.jpg"],
         "vertical" : false,
         "type" : ["app"]
     }
