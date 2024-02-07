@@ -1,5 +1,62 @@
 [
     {
+        "id" : "trivia",
+        "title" : "Trivia de preguntas",
+        "badges" : ["Videojuego", "Touch", "Quiz", "Trivia"],
+        "shortDescription" : "Clásico juego de trivia donde deberas responder la mayor cantidad de preguntas",
+        "description" : "¿Cuántas preguntas podras responder antes de que se acabe el tiempo? En esta desafiante trivia vas a poder poner a prueba a los jugadores para ver cuanto saben sobre un tema",
+        "changes" : [
+            "Modo de juego: Por tiempo o por preguntas",
+            "Preguntas y respuestas",
+            "Colores y tematica",
+            "Logos",
+            "Tiempo máximo",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["Trivia/1.jpg", "Trivia/2.jpg", "Trivia/3.jpg", "Trivia/4.jpg"],
+        "vertical" : true,
+        "type" : ["game"]
+    },
+    {
+        "id" : "sopadeletras",
+        "title" : "Sopa de letras",
+        "badges" : ["Videojuego", "Touch", "Quiz", "Multiplataforma"],
+        "shortDescription" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias para ganar",
+        "description" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias antes de que se acabe el tiempo para ganar",
+        "changes" : [
+            "Palabras a encontrar",
+            "Textos y botones",
+            "Colores y tematica",
+            "Logos",
+            "Tiempo máximo",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["SopaDeLetras/1.png", "SopaDeLetras/2.png", "SopaDeLetras/3.png"],
+        "vertical" : true,
+        "type" : ["game"]
+    },
+    {
+        "id" : "memotest",
+        "title" : "Memotest",
+        "badges" : ["Videojuego", "Touch", "Record", "Juego por tiempo", "Multiplataforma"],
+        "shortDescription" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales",
+        "description" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales antes de que se acabe el tiempo.",
+        "changes" : [
+            "Cantidad de fichas",
+            "Imagenes a encontrar",
+            "Colores y temática",
+            "Logos",
+            "Tiempo máximo",
+            "Música",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["Memotest/1.jpg", "Memotest/2.jpg", "Memotest/3.jpg"],
+        "vertical" : false,
+        "type" : ["game"]
+    },
+    {
         "id" : "wordconnect",
         "title" : "Word Connect",
         "badges" : ["Videojuego", "Touch", "Quiz", "Multiplataforma"],
@@ -38,29 +95,10 @@
         "type" : ["game"]
     },
     {
-        "id" : "sopadeletras",
-        "title" : "Sopa de letras",
-        "badges" : ["Videojuego", "Touch", "Quiz", "Multiplataforma"],
-        "shortDescription" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias para ganar",
-        "description" : "Clásico juego de sopa de letras donde deberas encontrar las palabras necesarias antes de que se acabe el tiempo para ganar",
-        "changes" : [
-            "Palabras a encontrar",
-            "Textos y botones",
-            "Colores y tematica",
-            "Logos",
-            "Tiempo máximo",
-            "Música",
-            "Orientación del dispositivo"
-        ],
-        "images" : ["SopaDeLetras/1.png", "SopaDeLetras/2.png", "SopaDeLetras/3.png"],
-        "vertical" : true,
-        "type" : ["game"]
-    },
-    {
         "id" : "flappypig",
         "title" : "Flappy Pig",
         "badges" : ["Videojuego", "Touch", "Carrera", "Record", "Multiplataforma"],
-        "shortDescription" : "Flappy Pig es un juego adictivo que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos",
+        "shortDescription" : "Flappy Pig es un juego que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos",
         "description" : "Flappy Pig es un juego adictivo que combina la mécanica clásica del Flappy Bird con la emoción de recolectar monedas en los cielos\nEn este emocionante desafío, te convertirás en un encantador cerdito alcancía decidido a acumular riquezas en los cielos, pero cuidado con los martillos que se interponen en tu camino o perderas tus vidas.",
         "changes" : [
             "Palabras a encontrar",
@@ -72,25 +110,6 @@
             "Orientación del dispositivo"
         ],
         "images" : ["FlappyPig/1.png", "FlappyPig/2.png", "FlappyPig/3.png", "FlappyPig/4.png"],
-        "vertical" : false,
-        "type" : ["game"]
-    },
-    {
-        "id" : "memotest",
-        "title" : "Memotest",
-        "badges" : ["Videojuego", "Touch", "Record", "Juego por tiempo", "Multiplataforma"],
-        "shortDescription" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales",
-        "description" : "Clásico juego de memoria donde el objetivo es encontrar todo los pares de imagenes iguales antes de que se acabe el tiempo.",
-        "changes" : [
-            "Cantidad de fichas",
-            "Imagenes a encontrar",
-            "Colores y temática",
-            "Logos",
-            "Tiempo máximo",
-            "Música",
-            "Orientación del dispositivo"
-        ],
-        "images" : ["Memotest/1.jpg", "Memotest/2.jpg", "Memotest/3.jpg"],
         "vertical" : false,
         "type" : ["game"]
     },
