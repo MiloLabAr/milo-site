@@ -130,5 +130,22 @@
         "images" : ["Formulario/1.png", "Formulario/2.png", "Formulario/3.png"],
         "vertical" : false,
         "type" : ["app"]
+    },
+    {
+        "id" : "ruleta",
+        "title" : "Ruleta",
+        "badges" : ["Aplicación", "Touch", "Premios", "Azar"],
+        "shortDescription" : "Ruleta de azar para dar premios a tus clientes",
+        "description" : "Gira la ruleta para ganar premios y desafiar a la suerte.",
+        "changes" : [
+            "Cantidad de premios",
+            "Colores, diseños y temática",
+            "Logo",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["Ruleta/1.jpg", "Ruleta/2.jpg"],
+        "vertical" : false,
+        "type" : ["app"]
     }
+
 ]
