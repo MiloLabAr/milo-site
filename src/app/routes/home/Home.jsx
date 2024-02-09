@@ -128,7 +128,7 @@ function Home() {
             <p>
             ¿Qué mejor manera de atraer nuevos clientes que con juegos interactivos? Ya sea un evento corporativo, una feria comercial o una campaña de marketing, nuestros juegos están diseñados para cautivar a tu audiencia y dejar una marca única.
             </p>
-            <Button to='/portfolio#juegos' rounded color='white' textColor='#6537C7'>
+            <Button to='/portfolio#videojuegos' rounded color='white' textColor='#6537C7'>
             Ver juegos
           </Button>
           </div>

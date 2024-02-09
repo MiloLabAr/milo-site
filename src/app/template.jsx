@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Logo from '../assets/Logo blanco.png'
 import './template.scss'
 import { useEffect } from 'react'
+import ScrollToHashElement from '../components/ScrollToHash/ScrollToHashElement'
 
 
 export default function Template({ children }) {
@@ -36,6 +37,7 @@ export default function Template({ children }) {
 
   return (
     <>
+        <ScrollToHashElement/>
         <Navbar 
           routes={headerRoutes}
         />
