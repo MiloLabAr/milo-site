@@ -57,7 +57,7 @@ function Portfolio() {
         </section>
         <section className='category games-portfolio'>
             <div className='top-container'>
-                <h2 style={{fontSize: 30 + "px"}}>Videojuegos</h2>
+                <h2 id="videojuegos" style={{fontSize: 30 + "px"}}>Videojuegos</h2>
             </div>
             <div className='products'>
                 {gamesData.map(game => (
