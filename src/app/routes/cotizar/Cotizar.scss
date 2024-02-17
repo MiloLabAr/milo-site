@@ -17,7 +17,7 @@
             background-color: #d2d2d2;
             border-radius: 20px;
             form{
-                padding: 30px 40px 76px;
+                padding: 30px 40px;
                 .inputs-container{
                     display: flex;
                     justify-content: space-between;
@@ -60,9 +60,23 @@
                     }
                 }
             }
-            button{
-                width: fit-content;
-                float: right;
+            .send-container{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                button{
+                    width: fit-content;
+                    padding: 0;
+                    height: 46px;
+                    width: 160px;
+                    svg{
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+                p{
+                    font-weight: bold;
+                }
             }
         }
     }

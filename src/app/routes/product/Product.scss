@@ -9,9 +9,8 @@
             display: flex;
             justify-content: space-between;
             div{
-                height: 500px;
                 &.gallery{
-                    max-height: 500px;
+                    //max-height: 500px;
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column; //
@@ -52,6 +51,7 @@
                         }   
                     }
                     &.portrait{
+                        max-height: 500px;
                         flex-direction: row;
                         width: calc(50% - 10px);
                         .image{
@@ -85,6 +85,8 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    height: fit-content;
+                    min-height: 500px;
                     div{
                         height: fit-content;
                         margin: 20px 30px;
