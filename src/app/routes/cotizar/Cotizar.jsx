@@ -19,6 +19,8 @@ function Cotizar() {
   const [comment, setComment] = useState('');
   
   const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState('');
+  const [message, setMessage] = useState('');
 
   const inputProps = {
     type: 'text',
@@ -34,9 +36,18 @@ function Cotizar() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if(
+      name === '' ||
+      phone === '' ||
+      template === '' ||
+      device === '' ||
+      productType === ''
+    ){
+      setMessage('Complete los campos obligatorios');
+      setStatus('error');
+      return;
+    }
     setLoading(true);
-    setTimeout(()=>setLoading(false),3000)
-
     try{
       //TODO:  
 
@@ -52,10 +63,14 @@ function Cotizar() {
           HTMLcontent: content.replaceAll("\n", "<br>")
         }),
       });
-      const data = await res.json();
+      //const data = await res.json();
     }
-    catch{
-
+    catch(e){
+      if(e.toString() === 'TypeError: Failed to fetch'){
+        setStatus('success');
+        setMessage('¡Mensaje envíado con éxito!');
+        setLoading(false);
+      }
     }
 
   }
@@ -80,7 +95,7 @@ function Cotizar() {
                   {...inputProps}
                   label='Nombre y apellido *' 
                   value={name} 
-                  setValue={setName} 
+                  setValue={(v)=>{setName(v);setMessage('')}} 
                 />
                 <Input
                   {...inputProps}
@@ -95,7 +110,7 @@ function Cotizar() {
                   label={contact === 'WhatsApp' ? 'WhatsApp *' : 'Mail *'}
                   type={contact === 'WhatsApp' ? 'phone' : 'email'}
                   value={phone} 
-                  setValue={setPhone} 
+                  setValue={(v)=>{setPhone(v);setMessage('')}} 
                 />
               </div>
               <div className='inputs-container'>
@@ -104,7 +119,7 @@ function Cotizar() {
                   label='¿Va a usar alguna plantilla? *' 
                   type='select'
                   value={template} 
-                  setValue={setTemplate}
+                  setValue={(v)=>{setTemplate(v);setMessage('')}}
                   options={data.map(app => app.title)}
                 />
                 <Input
@@ -115,7 +130,7 @@ function Cotizar() {
                 />
                 <Input
                   {...inputProps}
-                  label='Fecha límite del proyecto (Opcional)'
+                  label='Fecha límite (Opcional)'
                   type='date' 
                   value={limitDate} 
                   setValue={setLimitDate} 
@@ -128,7 +143,7 @@ function Cotizar() {
                   label='Dispositivo *'
                   type='select'
                   value={device} 
-                  setValue={setDevice}
+                  setValue={(v)=>{setDevice(v);setMessage('')}}
                   options={['Celular', 'Computadora', 'Tablet', 'TV touch']}
                 />
                 <Input
@@ -136,7 +151,7 @@ function Cotizar() {
                   label='Tipo de producto *' 
                   type='select'
                   value={productType} 
-                  setValue={setProductType}
+                  setValue={(v)=>{setProductType(v);setMessage('')}}
                   options={['Videojuego', 'Aplicación', 'Otro']}
                 />
               </div>
@@ -149,9 +164,12 @@ function Cotizar() {
                   setValue={setComment} 
                 />
               </div>
-              <Button type='submit' color='#6537C7' loading={loading} onClick={handleSubmit}>
-                ENVIAR
-              </Button>
+              <div className='send-container'>
+                <p style={{color: status === 'success' ? 'green' : 'red'}}>{message}</p>
+                <Button type='submit' color='#6537C7' loading={loading} onClick={handleSubmit}>
+                  ENVIAR
+                </Button>
+              </div>
             </form>
         </section>
     </div>
