@@ -88,7 +88,7 @@
         section{
             &.form-container{
                 form{
-                    padding: 20px 20px 76px;
+                    padding: 20px 20px;
                     .inputs-container{
                         padding: 0;
                         flex-direction: column;
@@ -127,6 +127,11 @@
                             }
                         }
                     }
+                }
+                .send-container{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
         }
