@@ -76,6 +76,24 @@
         "type" : ["game"]
     },
     {
+        "id" : "rompecabezas",
+        "title" : "Rompecabezas",
+        "badges" : ["Videojuego", "Touch", "Puzzle", "Niños"],
+        "shortDescription" : "Rompecabezas clásico donde deberas formar la imagen correcta",
+        "description" : "Rompecabezas de estilo clásico donde deberas arrastrar las piezas en la posición correcta para formar la imagen.",
+        "changes" : [
+            "Imagen del rompecabezas",
+            "Colores y temática",
+            "Cantidad piezas",
+            "Tiempo o sin tiempo",
+            "Logos",
+            "Orientación del dispositivo"
+        ],
+        "images" : ["rompecabezas/1.jpg", "rompecabezas/2.jpg"],
+        "vertical" : false,
+        "type" : ["game"]
+    },
+    {
         "id" : "coinsearch",
         "title" : "Búsqueda de moneda",
         "badges" : ["Videojuego", "Touch", "Puzzle", "Multiplataforma"],

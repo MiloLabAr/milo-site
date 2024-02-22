@@ -6,6 +6,8 @@ import './Nosotros.scss'
 import { BsCalendarCheckFill, BsPeopleFill, BsTools, BsLightbulbFill, BsPencilSquare, BsDatabaseFill  } from 'react-icons/bs';
 
 import DefaultImage from '../../../assets/default.jpg'
+import Image1 from '../../../assets/carrousel/1.jpeg'
+import Image2 from '../../../assets/carrousel/2.jpeg'
 
 function Nosotros() {
   return (
@@ -55,11 +57,11 @@ function Nosotros() {
         <section className='eventos' id='eventos'>
             <h2>Proyectos y eventos</h2>
             <Carousel>
-                <img src={DefaultImage} alt="" />
-                <img src={DefaultImage} alt="" />
-                <img src={DefaultImage} alt="" />
-                <img src={DefaultImage} alt="" />
-                <img src={DefaultImage} alt="" />
+                <img src={Image1} alt="Videojuego interactivo evento corporativo quiz" />
+                <img src={Image2} alt="Videojuego interactivo evento corporativo" />
+                <img src={Image1} alt="Videojuego interactivo evento corporativo quiz" />
+                <img src={Image2} alt="Videojuego interactivo evento corporativo" />
+                <img src={Image1} alt="Videojuego interactivo evento corporativo quiz" />
             </Carousel>
         </section>
     </div>
